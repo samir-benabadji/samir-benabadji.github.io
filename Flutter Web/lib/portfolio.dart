@@ -8,7 +8,7 @@ String full_name = "Samir Benabadji";
 String logo_name = "Samir";
 List<String> nickname = [
   " Flutter Developer",
-  " Technical Writer",
+  " Back-End Developer",
 ];
 String subTitle =
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.";
@@ -28,7 +28,7 @@ const socialMediaLinks = [
   },
   {
     "name": "LinkedIn",
-    "link": "https://www.linkedin.com/in/salimbenabadji/",
+    "link": "https://www.linkedin.com/in/samir-benabadji-6717b8230/",
     "fontAwesomeIcon": FontAwesomeIcons
         .linkedin, // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     "backgroundColor":
@@ -36,7 +36,7 @@ const socialMediaLinks = [
   },
   {
     "name": "YouTube",
-    "link": "https://www.youtube.com/channel/UCGf0PLe3CEirppgJyKhEacg",
+    "link": "https://www.youtube.com/channel/UC-3gw0aZ7_ZhvfVgbmlZIQw",
     "fontAwesomeIcon": FontAwesomeIcons
         .youtube, // Reference https://fontawesome.com/icons/youtube?style=brands
     "backgroundColor":
@@ -44,7 +44,7 @@ const socialMediaLinks = [
   },
   {
     "name": "Instagram",
-    "link": "https://www.instagram.com/salim_benabadji/",
+    "link": "https://www.instagram.com/benabadjisamir/",
     "fontAwesomeIcon": FontAwesomeIcons
         .instagram, // Reference https://fontawesome.com/icons/instagram?style=brands
     "backgroundColor":
@@ -52,27 +52,19 @@ const socialMediaLinks = [
   },
   {
     "name": "Stack Overflow",
-    "link": "https://stackoverflow.com/users/story/11453484?view=Timeline",
+    "link": "https://stackoverflow.com/users/18141958/samir-benabadji",
     "fontAwesomeIcon": FontAwesomeIcons
         .stackOverflow, // Reference https://fontawesome.com/icons/instagram?style=brands
     "backgroundColor":
         Color(0xFF181717), // Reference https://simpleicons.org/?q=instagram
   },
   {
-    "name": "EDN",
-    "link": "https://www.edn.com/author/benabadji-mohammed-salim/",
+    "name": "Discord",
+    "link": "https://discordapp.com/users/TGH-%3EA",
     "fontAwesomeIcon": FontAwesomeIcons
-        .book, // Reference https://fontawesome.com/icons/instagram?style=brands
-    "backgroundColor":
-        Color(0xFFD14836), // Reference https://simpleicons.org/?q=instagram
-  },
-  {
-    "name": "easyeda",
-    "link": "https://easyeda.com/benabadji.mohammed.salim",
-    "fontAwesomeIcon": FontAwesomeIcons
-        .microchip, // Reference https://fontawesome.com/icons/instagram?style=brands
-    "backgroundColor":
-        Color(0xFF1877F2), // Reference https://simpleicons.org/?q=instagram
+        .discord, // Reference https://fontawesome.com/icons/instagram?style=brands
+    "backgroundColor": Color.fromARGB(
+        255, 88, 2, 128), // Reference https://simpleicons.org/?q=instagram
   },
 ];
 // https://simpleicons.org/
@@ -262,11 +254,11 @@ const flutter_projects = [
     "youtube_url": "https://www.youtube.com/watch?v=wNRK7oKOohI",
   },
   {
-    "title": "School ERP",
-    "subtitle": "School ERP is a complete platform for schools.",
-    "cover_image_url": "assets/images/flutter_school_erp.png",
-    "repository_url": "https://github.com/salim97/mySchool-ERP",
-    "youtube_url": "https://www.youtube.com/watch?v=rZycitWz3bI",
+    "title": "LinkedIn Clone",
+    "subtitle": "LinkedIn Clone App",
+    "cover_image_url": "Flutter Web/assets/images/MP.png",
+    "repository_url": "https://github.com/samir-benabadji/Job-App",
+    "youtube_url": null,
   },
   {
     "title": "My Portfolio with Flutter Web",
