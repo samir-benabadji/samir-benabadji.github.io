@@ -120,31 +120,11 @@ const skills = [
 const degrees = [
   {
     "title": "University of Science and Technology of Oran",
-    "subtitle": "Master Degree in Computer Science",
-    "logo_path": "assets/images/USTO-LOGO.png",
-    "alt_name": "University of Science and Technology of Oran",
-    "duration": "2018 - 2020",
-    "descriptions": [
-      "Building Air Quality System from scratch, i used the following technology:",
-      " => programming Micro-controller ESP32 and wiring air sensor (Co, CO2, NH3 …)",
-      " => Firebase",
-      " => Flutter for mobile / web app",
-    ],
-    "website_link":
-        "https://github.com/salim97/University-Graduation-Project-Air-Quality-System",
-  },
-  {
-    "title": "University of Science and Technology of Oran",
     "subtitle": "Bachelor Degree in Computer Science",
     "logo_path": "assets/images/USTO-LOGO.png",
     "alt_name": "University of Science and Technology of Oran",
-    "duration": "2015 - 2018",
-    "descriptions": [
-      "Building Smart Home System from scratch, i used the following technology:",
-      " => programming Micro-controller ESP8266",
-      " => Using SBC ( Raspberry pi ) as server and QT5 as backend",
-      " => QT5 for Desktop app",
-    ],
+    "duration": "2020 - 2023",
+    "descriptions": [],
     "website_link": "https://www.univ-usto.dz/",
   },
 ];
