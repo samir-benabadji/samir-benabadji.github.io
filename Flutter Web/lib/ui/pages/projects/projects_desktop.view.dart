@@ -67,9 +67,6 @@ class _ProjectsDesktop extends StatelessWidget {
     )));
     body.add(_projectItem2(g.flutter_projects, context));
 
-
-
-
     body.add(Center(
       child: Padding(
         padding: const EdgeInsets.all(8.0),
@@ -87,7 +84,10 @@ class _ProjectsDesktop extends StatelessWidget {
             padding: const EdgeInsets.all(10.0),
             child: Text(
               "More Projects",
-              style: Theme.of(context).textTheme.button!.copyWith(color: Colors.white, fontWeight: FontWeight.w500),
+              style: Theme.of(context)
+                  .textTheme
+                  .button!
+                  .copyWith(color: Colors.white, fontWeight: FontWeight.w500),
             ),
           ),
         ),
@@ -165,17 +165,21 @@ class _ProjectsDesktop extends StatelessWidget {
                       decoration: BoxDecoration(
                         color: MyTheme.card_body_color,
                         shape: BoxShape.rectangle,
-                        borderRadius: BorderRadius.only(topRight: Radius.circular(15.0), bottomRight: Radius.circular(15.0)),
+                        borderRadius: BorderRadius.only(
+                            topRight: Radius.circular(15.0),
+                            bottomRight: Radius.circular(15.0)),
                       ),
                       child: Column(
                         children: [
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: Text(project["title"], style: Theme.of(context).textTheme.bodyText2),
+                            child: Text(project["title"],
+                                style: Theme.of(context).textTheme.bodyText2),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: Text(project["subtitle"], style: Theme.of(context).textTheme.bodyText2),
+                            child: Text(project["subtitle"],
+                                style: Theme.of(context).textTheme.bodyText2),
                           ),
                           Expanded(
                             child: Row(
@@ -186,7 +190,8 @@ class _ProjectsDesktop extends StatelessWidget {
                                     : Padding(
                                         padding: const EdgeInsets.all(8.0),
                                         child: ElevatedButton(
-                                          style: ElevatedButton.styleFrom(primary: Colors.red),
+                                          style: ElevatedButton.styleFrom(
+                                              primary: Colors.red),
                                           onPressed: () async {
                                             final url = project["youtube_url"];
                                             if (await canLaunch(url)) {
@@ -201,7 +206,11 @@ class _ProjectsDesktop extends StatelessWidget {
                                               SizedBox(width: 10),
                                               Text(
                                                 "Youtube",
-                                                style: Theme.of(context).textTheme.button!.copyWith(color: Colors.white),
+                                                style: Theme.of(context)
+                                                    .textTheme
+                                                    .button!
+                                                    .copyWith(
+                                                        color: Colors.white),
                                               ),
                                             ],
                                           ),
@@ -224,7 +233,10 @@ class _ProjectsDesktop extends StatelessWidget {
                                         SizedBox(width: 10),
                                         Text(
                                           "Source Code",
-                                          style: Theme.of(context).textTheme.button!.copyWith(color: Colors.white),
+                                          style: Theme.of(context)
+                                              .textTheme
+                                              .button!
+                                              .copyWith(color: Colors.white),
                                         ),
                                       ],
                                     ),
@@ -301,19 +313,25 @@ class _ProjectsDesktop extends StatelessWidget {
                         decoration: BoxDecoration(
                           color: MyTheme.card_body_color,
                           shape: BoxShape.rectangle,
-                          borderRadius: BorderRadius.only(bottomLeft: Radius.circular(15.0), bottomRight: Radius.circular(15.0)),
+                          borderRadius: BorderRadius.only(
+                              bottomLeft: Radius.circular(15.0),
+                              bottomRight: Radius.circular(15.0)),
                         ),
                         child: Column(
                           children: [
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: Text(project["title"], style: Theme.of(context).textTheme.bodyText2),
+                              child: Text(project["title"],
+                                  style: Theme.of(context).textTheme.bodyText2),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child: Text(
                                 project["subtitle"],
-                                style: Theme.of(context).textTheme.bodyText2!.copyWith(fontWeight: FontWeight.w400),
+                                style: Theme.of(context)
+                                    .textTheme
+                                    .bodyText2!
+                                    .copyWith(fontWeight: FontWeight.w400),
                                 textAlign: TextAlign.center,
                               ),
                             ),
@@ -325,7 +343,8 @@ class _ProjectsDesktop extends StatelessWidget {
                                     : Padding(
                                         padding: const EdgeInsets.all(8.0),
                                         child: ElevatedButton(
-                                          style: ElevatedButton.styleFrom(primary: Colors.red),
+                                          style: ElevatedButton.styleFrom(
+                                              primary: Colors.red),
                                           onPressed: () async {
                                             final url = project["youtube_url"];
                                             if (await canLaunch(url)) {
@@ -340,7 +359,11 @@ class _ProjectsDesktop extends StatelessWidget {
                                               SizedBox(width: 10),
                                               Text(
                                                 "Youtube",
-                                                style: Theme.of(context).textTheme.button!.copyWith(color: Colors.white),
+                                                style: Theme.of(context)
+                                                    .textTheme
+                                                    .button!
+                                                    .copyWith(
+                                                        color: Colors.white),
                                               ),
                                             ],
                                           ),
@@ -363,7 +386,10 @@ class _ProjectsDesktop extends StatelessWidget {
                                         SizedBox(width: 10),
                                         Text(
                                           "Source Code",
-                                          style: Theme.of(context).textTheme.button!.copyWith(color: Colors.white),
+                                          style: Theme.of(context)
+                                              .textTheme
+                                              .button!
+                                              .copyWith(color: Colors.white),
                                         ),
                                       ],
                                     ),

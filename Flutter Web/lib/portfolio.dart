@@ -256,7 +256,7 @@ const flutter_projects = [
   {
     "title": "LinkedIn Clone",
     "subtitle": "LinkedIn Clone App",
-    "cover_image_url": "Flutter Web/assets/images/MP.png",
+    "cover_image_url": "assets/images/MP.png",
     "repository_url": "https://github.com/samir-benabadji/Job-App",
     "youtube_url": null,
   },
