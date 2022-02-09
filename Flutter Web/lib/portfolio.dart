@@ -263,7 +263,8 @@ const flutter_projects = [
     "title": "My Portfolio with Flutter Web",
     "subtitle": "rebuilding my portfolio using flutter web",
     "cover_image_url": "assets/images/flutter_portfolio_S.png",
-    "repository_url": "https://github.com/salim97/salim97.github.io",
+    "repository_url":
+        "https://github.com/samir-benabadji/samir-benabadji.github.io",
     "youtube_url": null,
   },
 ];
