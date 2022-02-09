@@ -6,6 +6,6 @@ My PortFolio
 
 | Home | Admin | 
 |--|--|--|--|
-| ![Home](assets/images/3.jpg) | ![Admin](assets/images/12.jpg) |
+| ![Home](assets/assets/images/P1.png) | ![Home Part 2](assets/assets/images/P2.png) |
 | Login | Splash |
-| ![Login](assets/images/10.jpg) | ![Splash](assets/images/9.jpg) |
+| ![Project](assets/assets/images/P3.png) | ![Contact Me](assets/assets/images/P4.png) |
