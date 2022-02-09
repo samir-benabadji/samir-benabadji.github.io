@@ -246,12 +246,11 @@ const projects = [
 
 const flutter_projects = [
   {
-    "title": "University Graduation Project Air Quality System",
-    "subtitle": "A contributed air quality system deployed in algeria",
-    "cover_image_url": "assets/images/flutter_air_quality_system.png",
-    "repository_url":
-        "https://github.com/salim97/University-Graduation-Project-Air-Quality-System",
-    "youtube_url": "https://www.youtube.com/watch?v=wNRK7oKOohI",
+    "title": "Grocery App",
+    "subtitle": "a variety of Grocery food",
+    "cover_image_url": "assets/images/MPCabage.png",
+    "repository_url": "https://github.com/samir-benabadji/Grocery-App",
+    "youtube_url": null,
   },
   {
     "title": "LinkedIn Clone",
