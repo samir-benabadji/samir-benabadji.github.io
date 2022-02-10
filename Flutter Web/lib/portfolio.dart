@@ -252,9 +252,9 @@ const flutter_projects = [
 const contactPageData = {
   "contactSection": {
     "title": "Contact Me",
-    "profile_image_path": "Flutter Web/assets/images/Gpic.png",
+    "profile_image_path": "assets/images/Gpic.png",
     "description":
-        "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ESP8266, ESP32, Flutter, Linux CLI, Qt  Development.",
+        "I am available on almost every social media. You can message me, I will reply within 24 hours. i can help you with Flutter, Docker, Node.js, Linux.",
   },
   "addressSection": {
     "title": "Address",
