@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "d393ef5783d614f57aaae53a45e88332",
+  "assets/AssetManifest.json": "468947cb206ca82c8741fdcf47cb53ed",
 "assets/assets/fonts/agustina.otf": "7b9833076716a8d14eec0cf885a3153c",
 "assets/assets/fonts/GoogleSans-Bold.ttf": "4457817ac2b9993c65e81aa05828fe9c",
 "assets/assets/fonts/GoogleSans-BoldItalic.ttf": "90773b6158663ab0fe78b32680733677",
@@ -44,6 +44,7 @@ const RESOURCES = {
 "assets/assets/images/googleAssistant.jpg": "0c8a4c114ad00f7854e91550379b9b91",
 "assets/assets/images/googleAssistant.png": "4a1f37c17182c7a557010cf5e3e8d899",
 "assets/assets/images/google_logo.png": "b75aecaf9e70a9b1760497e33bcd6db1",
+"assets/assets/images/Gpic.png": "1f558e28ca3e9f36a8161a47f6c80e1c",
 "assets/assets/images/hardware.png": "dd2d64566b77518b5f99ff3ef5c5f6c2",
 "assets/assets/images/ibm_logo.png": "6d325fec19fe3b6b169d9012f9a1dfb9",
 "assets/assets/images/intel_logo.jpg": "29152cf756a1facead5393c32e373371",
@@ -87,9 +88,9 @@ const RESOURCES = {
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "0139ef2a8984ba83d8160748495b3977",
-"/": "0139ef2a8984ba83d8160748495b3977",
-"main.dart.js": "c0b57076af2b8cfeb7a3a5ec9404e1ca",
+"index.html": "e8eaa9d1043dd9e8e959773f923f3334",
+"/": "e8eaa9d1043dd9e8e959773f923f3334",
+"main.dart.js": "2e76ec5328ec157dc62e6e12e7ab6616",
 "manifest.json": "7268d731e85213fad6b35f4c3b52f2e6",
 "version.json": "9b818ca9511483c901bed1545384376c"
 };
