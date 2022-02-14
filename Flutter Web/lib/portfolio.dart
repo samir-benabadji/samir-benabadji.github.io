@@ -9,6 +9,7 @@ String logo_name = "Samir";
 List<String> nickname = [
   " Flutter Developer",
   " Back-End Developer",
+  " Front-End Developer",
 ];
 String subTitle =
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.";
@@ -93,13 +94,6 @@ const skills = [
         },
       },
       {
-        "skillName": "Qt5",
-        "fontAwesomeClassname": SimpleIcons.qt,
-        "style": {
-          "backgroundColor": Color(0xFF41CD52),
-        },
-      },
-      {
         "skillName": "NestJS",
         "fontAwesomeClassname": SimpleIcons.nestjs,
         "style": {
@@ -129,100 +123,9 @@ const degrees = [
   },
 ];
 
-const certifications = [
-  {
-    "title": "Qt 5 Core Advanced with C++",
-    "subtitle": "Udemy - June 14, 2019",
-    "logo_path": "assets/images/udemy-logo.png",
-    "certificate_link": "https://www.udemy.com/certificate/UC-OROX9FXP/",
-    "alt_name": "Udemy",
-    "color_code": Color(0xFF70C199),
-  },
-  {
-    "title": "Qt 6 Core Intermediate with C++",
-    "subtitle": "Udemy - May 28, 2021",
-    "logo_path": "assets/images/udemy-logo.png",
-    "certificate_link":
-        "https://www.udemy.com/certificate/UC-b7ccb003-aab0-45d3-b58e-827ba5948374/",
-    "alt_name": "Udemy",
-    "color_code": Color(0xFF70C199),
-  },
-  {
-    "title": "Dart - Advanced Course",
-    "subtitle": "Udemy - October 13, 2018",
-    "logo_path": "assets/images/udemy-logo.png",
-    "certificate_link": "https://www.udemy.com/certificate/UC-C9RWAJZC/",
-    "alt_name": "Udemy",
-    "color_code": Color(0xFF70C199),
-  },
-  {
-    "title": "Dart 2 Complete Bootcamp - Go Hero from Zero in Dart Flutter",
-    "subtitle": "Udemy - October 13, 2018",
-    "logo_path": "assets/images/udemy-logo.png",
-    "certificate_link": "https://www.udemy.com/certificate/UC-31K1J2BE/",
-    "alt_name": "Udemy",
-    "color_code": Color(0xFF70C199),
-  },
-  {
-    "title": "Flutter - Advanced Course",
-    "subtitle": "Udemy - October 14, 2018",
-    "logo_path": "assets/images/udemy-logo.png",
-    "certificate_link": "https://www.udemy.com/certificate/UC-LEW1IHDU/",
-    "alt_name": "Udemy",
-    "color_code": Color(0xFF70C199),
-  },
-  {
-    "title": "JavaScript Algorithms and Data Structures",
-    "subtitle": "Freecodecamp - October 8, 2018",
-    "logo_path": "assets/images/freecodecamp1.png",
-    "certificate_link":
-        "https://www.freecodecamp.org/certification/benabadjisalim/javascript-algorithms-and-data-structures",
-    "alt_name": "Freecodecamp",
-    "color_code": Color(0x809D5899),
-  },
-  {
-    "title": "1 Million Arab Coders Initiative",
-    "subtitle": "Udacity - February 2019",
-    "logo_path": "assets/images/udacity.png",
-    "certificate_link":
-        "https://drive.google.com/file/d/12omIvEj6gZ8zc2_Aq1xib0JfmxOEduZr/view?usp=sharing",
-    "alt_name": "Udacity",
-    "color_code": Color(0x7F000099),
-  },
-];
+const certifications = [];
 
-const projects = [
-  {
-    "title": "Qt QML Digital Servo Motor MG 996R Application",
-    "subtitle": "Control Digital Servo Motor on real time.",
-    "cover_image_url": "assets/images/youtube-servo-motor-2018.gif",
-    "repository_url": "https://github.com/salim97/My-Digital-Servo-Motor",
-    "youtube_url": "https://www.youtube.com/watch?v=EHaF01cJuXc",
-  },
-  {
-    "title": "My Mini Radar - Qt + ESP8266 + MG996R + HC SR04",
-    "subtitle":
-        "building simple radar using ESP8266 and servo motor MG 996R and HC-SR04.",
-    "cover_image_url": "assets/images/My-Mini-Radar.gif",
-    "repository_url": "https://github.com/salim97/My-Mini-Radar",
-    "youtube_url": "https://www.youtube.com/watch?v=iYSFZ4Aru64",
-  },
-  {
-    "title": "Qt QML Matrix LED Designer Application",
-    "subtitle": "Real time painting on matrix led 7x5, using esp8266 and Qt5",
-    "cover_image_url": "assets/images/My-LED-Matrix-Designer.jpg",
-    "repository_url": "https://github.com/salim97/My-LED-Matrix-Designer",
-    "youtube_url": "https://www.youtube.com/watch?v=nxqmDQN6-Xw",
-  },
-  {
-    "title": "Qt QML 4 Digit-7 Segment Control",
-    "subtitle":
-        "control 4 digit from network using application cross platform, real time",
-    "cover_image_url": "assets/images/My-4-Digit-7-Segment-Control.jpg",
-    "repository_url": "https://github.com/salim97/My-4-Digit-7-Segment-Control",
-    "youtube_url": "https://www.youtube.com/watch?v=Zn20uOZ-Sms",
-  },
-];
+const projects = [];
 
 const flutter_projects = [
   {
