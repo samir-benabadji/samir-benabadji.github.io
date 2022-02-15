@@ -45,7 +45,8 @@ class _HomeDesktop extends StatelessWidget {
                               child: TyperAnimatedTextKit(
                                 isRepeatingAnimation: true,
                                 speed: Duration(milliseconds: 50),
-                                textStyle: Theme.of(context).textTheme.subtitle1,
+                                textStyle:
+                                    Theme.of(context).textTheme.subtitle1,
                                 text: g.nickname,
                               ),
                             ),
@@ -71,20 +72,47 @@ class _HomeDesktop extends StatelessWidget {
                         child: FloatingActionButton(
                           heroTag: null,
                           onPressed: () async {
-                            final url = g.socialMediaLinks.elementAt(index)["link"].toString();
+                            final url = g.socialMediaLinks
+                                .elementAt(index)["link"]
+                                .toString();
                             if (await canLaunch(url)) {
                               await launch(url);
                             } else {
                               throw 'Could not launch $url';
                             }
                           },
-                          child: FaIcon(g.socialMediaLinks.elementAt(index)["fontAwesomeIcon"] as IconData),
-                          backgroundColor: g.socialMediaLinks.elementAt(index)["backgroundColor"] as Color,
+                          child: FaIcon(g.socialMediaLinks
+                              .elementAt(index)["fontAwesomeIcon"] as IconData),
+                          backgroundColor: g.socialMediaLinks
+                              .elementAt(index)["backgroundColor"] as Color,
                         ),
                       );
                     }),
                   ),
                   SizedBox(height: 20),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                          primary: MyTheme.jacketColor),
+                      onPressed: () async {
+                        final url = g.resumeLink;
+                        if (await canLaunch(url)) {
+                          await launch(url);
+                        } else {
+                          throw 'Could not launch $url';
+                        }
+                      },
+                      child: Padding(
+                        padding: const EdgeInsets.all(10.0),
+                        child: Text(
+                          "See My Resume ( CV )",
+                          style: Theme.of(context).textTheme.button!.copyWith(
+                              color: Colors.white, fontWeight: FontWeight.w500),
+                        ),
+                      ),
+                    ),
+                  ),
                 ],
               ),
             ),
@@ -154,12 +182,15 @@ class _HomeDesktop extends StatelessWidget {
                     alignment: Alignment.center,
                     child: Wrap(
                       // Generate 100 widgets that display their index in the List.
-                      children: List.generate(element["softwareSkills"].length, (index) {
+                      children: List.generate(element["softwareSkills"].length,
+                          (index) {
                         return Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: Icon(
-                            element["softwareSkills"][index]["fontAwesomeClassname"] as IconData,
-                            color: element["softwareSkills"][index]["style"]["backgroundColor"] as Color,
+                            element["softwareSkills"][index]
+                                ["fontAwesomeClassname"] as IconData,
+                            color: element["softwareSkills"][index]["style"]
+                                ["backgroundColor"] as Color,
                             size: 64.0,
                           ),
                           // child: Icon(SimpleIcons.github),

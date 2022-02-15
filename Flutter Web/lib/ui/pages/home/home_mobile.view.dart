@@ -76,6 +76,27 @@ class _HomeMobile extends StatelessWidget {
             }),
           ),
           SizedBox(height: 20),
+                    Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: ElevatedButton(
+              style: ElevatedButton.styleFrom(primary: MyTheme.jacketColor),
+              onPressed: () async {
+                final url = g.resumeLink;
+                if (await canLaunch(url)) {
+                  await launch(url);
+                } else {
+                  throw 'Could not launch $url';
+                }
+              },
+              child: Padding(
+                padding: const EdgeInsets.all(10.0),
+                child: Text(
+                  "See My Resume ( CV )",
+                  style: Theme.of(context).textTheme.button!.copyWith(color: Colors.white, fontWeight: FontWeight.w500),
+                ),
+              ),
+            ),
+          ),
           // SizedBox(height: 20),
           Image.asset(
             "assets/images/code.gif",
