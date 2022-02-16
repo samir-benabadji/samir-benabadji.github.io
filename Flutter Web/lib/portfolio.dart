@@ -37,14 +37,6 @@ const socialMediaLinks = [
         Color(0xFF0077B5), // Reference https://simpleicons.org/?q=linkedin
   },
   {
-    "name": "YouTube",
-    "link": "https://www.youtube.com/channel/UC-3gw0aZ7_ZhvfVgbmlZIQw",
-    "fontAwesomeIcon": FontAwesomeIcons
-        .youtube, // Reference https://fontawesome.com/icons/youtube?style=brands
-    "backgroundColor":
-        Color(0xFFFF0000), // Reference https://simpleicons.org/?q=youtube
-  },
-  {
     "name": "Instagram",
     "link": "https://www.instagram.com/benabadjisamir/",
     "fontAwesomeIcon": FontAwesomeIcons
