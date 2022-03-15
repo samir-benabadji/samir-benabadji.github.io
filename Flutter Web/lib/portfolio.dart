@@ -111,12 +111,49 @@ const degrees = [
     "logo_path": "assets/images/USTO-LOGO.png",
     "alt_name": "University of Science and Technology of Oran",
     "duration": "2020 - 2023",
-    "descriptions": [],
+    "descriptions": ["Currently Studying"],
     "website_link": "https://www.univ-usto.dz/",
   },
 ];
 
-const certifications = [];
+const certifications = [
+  {
+    "title": "Dart & Flutter - Advanced Course",
+    "subtitle": "Udemy - March 15, 2022",
+    "logo_path": "assets/images/udemy-logo.png",
+    "certificate_link":
+        "https://www.udemy.com/certificate/UC-2171a414-0739-40c3-9c4f-937fbd255fbe/",
+    "alt_name": "Udemy",
+    "color_code": Color(0xFF70C199),
+  },
+  {
+    "title": "HTML - Course",
+    "subtitle": "Udemy - February 23, 2022",
+    "logo_path": "assets/images/udemy-logo.png",
+    "certificate_link":
+        "https://www.udemy.com/certificate/UC-f4978dbd-f903-4c2c-9a79-b57f76312577/",
+    "alt_name": "Udemy",
+    "color_code": Color(0x809D5899),
+  },
+  {
+    "title": "HTML & CSS - Course",
+    "subtitle": "Udemy - February 22, 2022",
+    "logo_path": "assets/images/udemy-logo.png",
+    "certificate_link":
+        "https://www.udemy.com/certificate/UC-b3331e1f-1edf-4960-b01e-35ce5bc47cb6/",
+    "alt_name": "Udemy",
+    "color_code": Color(0x7F000099),
+  },
+  {
+    "title": "Mobile App Development",
+    "subtitle": "Udemy - February 16, 2022",
+    "logo_path": "assets/images/udemy-logo.png",
+    "certificate_link":
+        "https://www.udemy.com/certificate/UC-e74b3a3a-cd7c-4dfe-9f3c-499a96874274/",
+    "alt_name": "Udemy",
+    "color_code": Color.fromARGB(126, 70, 70, 218),
+  },
+];
 
 const projects = [];
 
