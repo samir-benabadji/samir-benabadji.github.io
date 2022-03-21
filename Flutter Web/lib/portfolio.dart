@@ -166,10 +166,10 @@ const flutter_projects = [
     "youtube_url": null,
   },
   {
-    "title": "LinkedIn Clone",
-    "subtitle": "LinkedIn Clone App",
-    "cover_image_url": "assets/images/MP.png",
-    "repository_url": "https://github.com/samir-benabadji/Job-App",
+    "title": "Post Job",
+    "subtitle": "Post Job Application",
+    "cover_image_url": "assets/images/PostJobApplication.png",
+    "repository_url": "https://github.com/samir-benabadji/Post-Job-Application",
     "youtube_url": null,
   },
   {
