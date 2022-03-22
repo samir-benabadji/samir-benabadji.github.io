@@ -14,7 +14,7 @@ List<String> nickname = [
 String subTitle =
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.";
 String resumeLink =
-    "https://drive.google.com/file/d/1dQ9xAse9nnF-Vh96qL3eSGSsyYBjTww3/view?usp=sharing";
+    "https://drive.google.com/file/d/1DhC573FOC-O1OdxzjoOpbQ3HhcudqcdY/view?usp=sharing";
 // String portfolio_repository = "https://drive.google.com/file/d/1eCrMAJLbuuqfeCj3za_bvtODb4XfikI9/view?usp=sharing";
 String github_repository_link =
     "https://github.com/samir-benabadji?tab=repositories";
