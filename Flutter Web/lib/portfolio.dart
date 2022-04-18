@@ -159,10 +159,11 @@ const projects = [];
 
 const flutter_projects = [
   {
-    "title": "Grocery App",
-    "subtitle": "a variety of Grocery food",
-    "cover_image_url": "assets/images/MPCabage.png",
-    "repository_url": "https://github.com/samir-benabadji/Grocery-App",
+    "title": "Restaurant Application",
+    "subtitle": "Different Categories And a lot of food varieties",
+    "cover_image_url": "assets/images/RAV0.png",
+    "repository_url":
+        "https://github.com/samir-benabadji/Restaurant-V0-Application",
     "youtube_url": null,
   },
   {
@@ -170,6 +171,13 @@ const flutter_projects = [
     "subtitle": "Post Job Application",
     "cover_image_url": "assets/images/PostJobApplication.png",
     "repository_url": "https://github.com/samir-benabadji/Post-Job-Application",
+    "youtube_url": null,
+  },
+  {
+    "title": "Grocery App",
+    "subtitle": "a variety of Grocery food",
+    "cover_image_url": "assets/images/MPCabage.png",
+    "repository_url": "https://github.com/samir-benabadji/Grocery-App",
     "youtube_url": null,
   },
   {
