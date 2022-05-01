@@ -159,6 +159,14 @@ const projects = [];
 
 const flutter_projects = [
   {
+    "title": "Storehouse Application",
+    "subtitle": "A Storehouse that contains different products and items",
+    "cover_image_url": "assets/images/StorehouseBackgroundimage.png",
+    "repository_url":
+        "https://github.com/samir-benabadji/Storehouse-Application",
+    "youtube_url": null,
+  },
+  {
     "title": "Restaurant Application",
     "subtitle": "Different Categories And a lot of food varieties",
     "cover_image_url": "assets/images/RAV0.png",
