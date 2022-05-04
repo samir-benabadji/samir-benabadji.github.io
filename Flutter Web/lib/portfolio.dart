@@ -14,7 +14,7 @@ List<String> nickname = [
 String subTitle =
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.";
 String resumeLink =
-    "https://drive.google.com/file/d/1DhC573FOC-O1OdxzjoOpbQ3HhcudqcdY/view?usp=sharing";
+    "https://drive.google.com/file/d/1e2RlUyt25Xq6jzPl12uy2iiiPXbfQ2rJ/view?usp=sharing";
 // String portfolio_repository = "https://drive.google.com/file/d/1eCrMAJLbuuqfeCj3za_bvtODb4XfikI9/view?usp=sharing";
 String github_repository_link =
     "https://github.com/samir-benabadji?tab=repositories";
@@ -179,13 +179,6 @@ const flutter_projects = [
     "subtitle": "Post Job Application",
     "cover_image_url": "assets/images/PostJobApplication.png",
     "repository_url": "https://github.com/samir-benabadji/Post-Job-Application",
-    "youtube_url": null,
-  },
-  {
-    "title": "Grocery App",
-    "subtitle": "a variety of Grocery food",
-    "cover_image_url": "assets/images/MPCabage.png",
-    "repository_url": "https://github.com/samir-benabadji/Grocery-App",
     "youtube_url": null,
   },
   {
