@@ -127,6 +127,15 @@ const certifications = [
     "color_code": Color(0xFF70C199),
   },
   {
+    "title": "PHP & MySQL - Advanced Course",
+    "subtitle": "Udemy - May 4, 2022",
+    "logo_path": "assets/images/udemy-logo.png",
+    "certificate_link":
+        "https://www.udemy.com/certificate/UC-0fcb4799-1923-4b05-b0e7-2d2f1e008666/",
+    "alt_name": "Udemy",
+    "color_code": Color.fromARGB(255, 163, 192, 34),
+  },
+  {
     "title": "HTML - Course",
     "subtitle": "Udemy - February 23, 2022",
     "logo_path": "assets/images/udemy-logo.png",
