@@ -167,9 +167,9 @@ class _ProjectsMobile extends StatelessWidget {
                                 Padding(
                                   padding: const EdgeInsets.symmetric(horizontal: 8.0),
                                   child: ElevatedButton(
-                                    style: ElevatedButton.styleFrom(primary: Colors.red),
+                                    style: ElevatedButton.styleFrom(primary: Colors.green),
                                     onPressed: () async {
-                                      final url = project["youtube_url"];
+                                      final url = project["playstore_url"];
                                       if (await canLaunch(url)) {
                                         await launch(url);
                                       } else {
@@ -178,10 +178,10 @@ class _ProjectsMobile extends StatelessWidget {
                                     },
                                     child: Row(
                                       children: [
-                                        FaIcon(FontAwesomeIcons.youtube),
+                                        FaIcon(FontAwesomeIcons.googlePlay),
                                         SizedBox(width: 10),
                                         Text(
-                                          "Youtube",
+                                          "Play Store",
                                           style: Theme.of(context).textTheme.button!.copyWith(color: Colors.white),
                                         ),
                                       ],
@@ -301,14 +301,14 @@ class _ProjectsMobile extends StatelessWidget {
                             Row(
                               mainAxisAlignment: MainAxisAlignment.spaceAround,
                               children: [
-                                project["youtube_url"] == null
+                                project["playstore_url"] == null
                                     ? Container()
                                     : Padding(
                                         padding: const EdgeInsets.all(8.0),
                                         child: ElevatedButton(
-                                          style: ElevatedButton.styleFrom(primary: Colors.red),
+                                          style: ElevatedButton.styleFrom(primary: Colors.green),
                                           onPressed: () async {
-                                            final url = project["youtube_url"];
+                                            final url = project["playstore_url"];
                                             if (await canLaunch(url)) {
                                               await launch(url);
                                             } else {
@@ -317,10 +317,10 @@ class _ProjectsMobile extends StatelessWidget {
                                           },
                                           child: Row(
                                             children: [
-                                              FaIcon(FontAwesomeIcons.youtube),
+                                              FaIcon(FontAwesomeIcons.googlePlay),
                                               SizedBox(width: 10),
                                               Text(
-                                                "Youtube",
+                                                "Play Store",
                                                 style: Theme.of(context).textTheme.button!.copyWith(color: Colors.white),
                                               ),
                                             ],

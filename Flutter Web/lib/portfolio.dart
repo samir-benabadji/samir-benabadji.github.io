@@ -14,7 +14,7 @@ List<String> nickname = [
 String subTitle =
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.";
 String resumeLink =
-    "https://drive.google.com/file/d/1e2RlUyt25Xq6jzPl12uy2iiiPXbfQ2rJ/view?usp=sharing";
+    "https://drive.google.com/file/d/19YOpF3dIhHFXyRmoAtVBQgoFdscH_rmn/view?usp=sharing";
 // String portfolio_repository = "https://drive.google.com/file/d/1eCrMAJLbuuqfeCj3za_bvtODb4XfikI9/view?usp=sharing";
 String github_repository_link =
     "https://github.com/samir-benabadji?tab=repositories";
@@ -174,6 +174,7 @@ const flutter_projects = [
     "repository_url":
         "https://github.com/samir-benabadji/Storehouse-Application",
     "youtube_url": null,
+    "playstore_url": null,
   },
   {
     "title": "Restaurant Application",
@@ -182,6 +183,8 @@ const flutter_projects = [
     "repository_url":
         "https://github.com/samir-benabadji/Restaurant-V0-Application",
     "youtube_url": null,
+    "playstore_url":
+        'https://play.google.com/store/apps/details?id=com.samirbenabadji.RestaurantDemo',
   },
   {
     "title": "Post Job",
@@ -189,6 +192,7 @@ const flutter_projects = [
     "cover_image_url": "assets/images/PostJobApplication.png",
     "repository_url": "https://github.com/samir-benabadji/Post-Job-Application",
     "youtube_url": null,
+    "playstore_url": null,
   },
   {
     "title": "My Portfolio with Flutter Web",
@@ -197,6 +201,7 @@ const flutter_projects = [
     "repository_url":
         "https://github.com/samir-benabadji/samir-benabadji.github.io",
     "youtube_url": null,
+    "playstore_url": null,
   },
 ];
 
