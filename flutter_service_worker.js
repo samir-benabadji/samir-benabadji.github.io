@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "70539e594821e2fb5775ec8a4f763c8e",
+  "assets/AssetManifest.json": "d75754815bf646793b3c857e2dd1408a",
 "assets/assets/fonts/agustina.otf": "7b9833076716a8d14eec0cf885a3153c",
 "assets/assets/fonts/GoogleSans-Bold.ttf": "4457817ac2b9993c65e81aa05828fe9c",
 "assets/assets/fonts/GoogleSans-BoldItalic.ttf": "90773b6158663ab0fe78b32680733677",
@@ -66,6 +66,7 @@ const RESOURCES = {
 "assets/assets/images/projects_image.png": "a80288a96a6320aa57860a6439b8cb89",
 "assets/assets/images/RAV0.png": "bd8592dca751d52bc77599a821fc2582",
 "assets/assets/images/saayaHealthLogo.png": "2008870a8fa10a349b9cc13ff257f3bb",
+"assets/assets/images/SPSCR1.png": "8598fa6a59e5211a2f57bc5624fa8040",
 "assets/assets/images/StorehouseBackgroundimage.png": "b84ba017f8299da3664680bf2dee73c2",
 "assets/assets/images/talksCardBack.png": "14ce81b509a17bec2439f3919d99da59",
 "assets/assets/images/talksCardBackAlt.png": "35111ccb7e563c380f3ab4c4486b41d1",
@@ -91,9 +92,9 @@ const RESOURCES = {
 "flutter.js": "eb2682e33f25cd8f1fc59011497c35f8",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "a7095158bcef0a8ddc18152b4174cf57",
-"/": "a7095158bcef0a8ddc18152b4174cf57",
-"main.dart.js": "eaa229101c8e5bbfd55028c5ad43c58a",
+"index.html": "e48f5b6fbab2e0109dd97a6ef90bd586",
+"/": "e48f5b6fbab2e0109dd97a6ef90bd586",
+"main.dart.js": "c64d8d36b7c39b22e8c1d7d44c603516",
 "manifest.json": "dde157b6b54b076cedf5925b3f1c56dd",
 "version.json": "9b818ca9511483c901bed1545384376c"
 };

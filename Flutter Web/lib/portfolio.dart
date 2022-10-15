@@ -67,9 +67,9 @@ const skills = [
     "title": "Full Stack Development",
     "fileName": "assets/images/fullstackdev.png",
     "skills": [
-      "Building resposive website front end using Flutter Web",
+      "Building responsive website's front end using Flutter Web",
       "Developing mobile applications using Flutter,",
-      "Creating application backend in Node, Express & NestJS",
+      "Creating application's backend in Node, Firebase & NestJS",
     ],
     "softwareSkills": [
       {
@@ -168,16 +168,17 @@ const projects = [];
 
 const flutter_projects = [
   {
-    "title": "Storehouse Application",
+    "title": "Storehouse",
     "subtitle": "A Storehouse that contains different products and items",
     "cover_image_url": "assets/images/StorehouseBackgroundimage.png",
     "repository_url":
         "https://github.com/samir-benabadji/Storehouse-Application",
     "youtube_url": null,
-    "playstore_url": "https://play.google.com/store/apps/details?id=com.samirbenabadji.Storehouse",
+    "playstore_url":
+        "https://play.google.com/store/apps/details?id=com.samirbenabadji.Storehouse",
   },
   {
-    "title": "Restaurant Application",
+    "title": "Restaurant-Demo",
     "subtitle": "Different Categories And a lot of food varieties",
     "cover_image_url": "assets/images/RAV0.png",
     "repository_url":
@@ -200,7 +201,8 @@ const flutter_projects = [
     "cover_image_url": "assets/images/YuGiOhScreenshot1.png",
     "repository_url": "https://github.com/samir-benabadji/Yu-Gi-Oh",
     "youtube_url": null,
-    "playstore_url": "https://play.google.com/store/apps/details?id=com.samirbenabadji.YuGiOh_Cards",
+    "playstore_url":
+        "https://play.google.com/store/apps/details?id=com.samirbenabadji.YuGiOh_Cards",
   },
   {
     "title": "My Portfolio with Flutter Web",
@@ -208,6 +210,15 @@ const flutter_projects = [
     "cover_image_url": "assets/images/flutter_portfolio_S.png",
     "repository_url":
         "https://github.com/samir-benabadji/samir-benabadji.github.io",
+    "youtube_url": null,
+    "playstore_url": null,
+  },
+  {
+    "title": "SpeeChat",
+    "subtitle":
+        "A social media application that lets users post and share content.",
+    "cover_image_url": "assets/images/SPSCR1.png",
+    "repository_url": "https://github.com/samir-benabadji/SpeeChat",
     "youtube_url": null,
     "playstore_url": null,
   },
