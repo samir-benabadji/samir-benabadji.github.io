@@ -8,13 +8,12 @@ String full_name = "Samir Benabadji";
 String logo_name = "Samir";
 List<String> nickname = [
   " Flutter Developer",
-  " Back-End Developer",
-  " Front-End Developer",
+  " PHP Laravel Developer",
 ];
 String subTitle =
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.";
 String resumeLink =
-    "https://drive.google.com/file/d/1juMA7TqDK19sIXwvyNuiYx2hO27AJctP/view?usp=sharing";
+    "https://drive.google.com/file/d/1qBrwApVrXXqnPYis1CKxtnSQinjcw98_/view?usp=share_link";
 // String portfolio_repository = "https://drive.google.com/file/d/1eCrMAJLbuuqfeCj3za_bvtODb4XfikI9/view?usp=sharing";
 String github_repository_link =
     "https://github.com/samir-benabadji?tab=repositories";
