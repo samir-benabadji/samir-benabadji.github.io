@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "d75754815bf646793b3c857e2dd1408a",
+  "assets/AssetManifest.json": "991191b2936e9b8fe2547d614f5b2145",
 "assets/assets/fonts/agustina.otf": "7b9833076716a8d14eec0cf885a3153c",
 "assets/assets/fonts/GoogleSans-Bold.ttf": "4457817ac2b9993c65e81aa05828fe9c",
 "assets/assets/fonts/GoogleSans-BoldItalic.ttf": "90773b6158663ab0fe78b32680733677",
@@ -50,6 +50,7 @@ const RESOURCES = {
 "assets/assets/images/intel_logo.jpg": "29152cf756a1facead5393c32e373371",
 "assets/assets/images/jsFramework.png": "f574a52111eec4d31596ef71bddf78a7",
 "assets/assets/images/legato_logo.png": "4ba886bafb9ff0a5b71b800c47f45d90",
+"assets/assets/images/Ludwig_Hess_Avatar.png": "6b94da921e5a0ae96d7a91b8ac3dbe18",
 "assets/assets/images/manOnTable.png": "2448466059d0484cb7a6157b7e4cc29a",
 "assets/assets/images/microsoft_logo.png": "048685487cd443bd10437eed467c36b0",
 "assets/assets/images/mozilla_logo.png": "f1551e15dce5a9ff23261c07bde2233d",
@@ -92,9 +93,9 @@ const RESOURCES = {
 "flutter.js": "eb2682e33f25cd8f1fc59011497c35f8",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "d62a3e2edbf391b2583ec5840ae06fcf",
-"/": "d62a3e2edbf391b2583ec5840ae06fcf",
-"main.dart.js": "9e4307b0cfdb0b269767a15d1c5514d4",
+"index.html": "f738cea77db60efe3d7c580e26b66fd3",
+"/": "f738cea77db60efe3d7c580e26b66fd3",
+"main.dart.js": "58a0c2746a8fc75274f0e5718dd4582c",
 "manifest.json": "dde157b6b54b076cedf5925b3f1c56dd",
 "version.json": "9b818ca9511483c901bed1545384376c"
 };
