@@ -7,13 +7,15 @@ import 'package:simple_icons/simple_icons.dart';
 String full_name = "Samir Benabadji";
 String logo_name = "Samir";
 List<String> nickname = [
+  " Full Stack Engineer",
   " Flutter Developer",
-  " PHP Laravel Developer",
+  " Laravel Developer",
+  " Spryker Developer",
 ];
 String subTitle =
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.";
 String resumeLink =
-    "https://drive.google.com/file/d/1qBrwApVrXXqnPYis1CKxtnSQinjcw98_/view?usp=share_link";
+    "https://drive.google.com/file/d/1UcAzGcR3NYXyeC-5cnoJNPJl5w7cFaP4/view?usp=share_link";
 // String portfolio_repository = "https://drive.google.com/file/d/1eCrMAJLbuuqfeCj3za_bvtODb4XfikI9/view?usp=sharing";
 String github_repository_link =
     "https://github.com/samir-benabadji?tab=repositories";
@@ -124,6 +126,14 @@ const certifications = [
         "https://www.udemy.com/certificate/UC-2171a414-0739-40c3-9c4f-937fbd255fbe/",
     "alt_name": "Udemy",
     "color_code": Color(0xFF70C199),
+  },
+  {
+    "title": "Spryker Bootcamp & Spryker Safari - Advanced Courses",
+    "subtitle": "Spryker - February 1, 2023",
+    "logo_path": "assets/images/spryker_logo.png",
+    "certificate_link": "https://academy.spryker.com/",
+    "alt_name": "Spryker",
+    "color_code": Color.fromARGB(255, 142, 158, 132),
   },
   {
     "title": "PHP & MySQL - Advanced Course",
