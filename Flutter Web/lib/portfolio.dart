@@ -223,7 +223,7 @@ const contactPageData = {
     "title": "Contact Me",
     "profile_image_path": "assets/images/Ludwig_Hess_Avatar.png",
     "description":
-        "I am available on almost every social media. You can message me, I will reply within 24 hours. i can help you with Flutter, Docker, Node.js, Linux.",
+        "I am available on almost every social media. You can message me, I will reply within 24 hours. i can help you with Flutter, Spryker, and TypeScript.",
   },
   "addressSection": {
     "title": "Address",
