@@ -14,52 +14,40 @@ List<String> nickname = [
 ];
 String subTitle =
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.";
-String resumeLink =
-    "https://drive.google.com/file/d/1UcAzGcR3NYXyeC-5cnoJNPJl5w7cFaP4/view?usp=share_link";
+String resumeLink = "https://drive.google.com/file/d/1H5-J2tMV8osvDvrLNQ_jSLir3txdeyxC/view?usp=sharing";
 // String portfolio_repository = "https://drive.google.com/file/d/1eCrMAJLbuuqfeCj3za_bvtODb4XfikI9/view?usp=sharing";
-String github_repository_link =
-    "https://github.com/samir-benabadji?tab=repositories";
+String github_repository_link = "https://github.com/samir-benabadji?tab=repositories";
 
 const socialMediaLinks = [
   {
     "name": "Github",
     "link": "https://github.com/samir-benabadji",
-    "fontAwesomeIcon": FontAwesomeIcons
-        .github, // Reference https://fontawesome.com/icons/github?style=brands
-    "backgroundColor":
-        Color(0xFF181717), // Reference https://simpleicons.org/?q=github
+    "fontAwesomeIcon": FontAwesomeIcons.github, // Reference https://fontawesome.com/icons/github?style=brands
+    "backgroundColor": Color(0xFF181717), // Reference https://simpleicons.org/?q=github
   },
   {
     "name": "LinkedIn",
     "link": "https://www.linkedin.com/in/samir-benabadji-6717b8230/",
-    "fontAwesomeIcon": FontAwesomeIcons
-        .linkedin, // Reference https://fontawesome.com/icons/linkedin-in?style=brands
-    "backgroundColor":
-        Color(0xFF0077B5), // Reference https://simpleicons.org/?q=linkedin
+    "fontAwesomeIcon": FontAwesomeIcons.linkedin, // Reference https://fontawesome.com/icons/linkedin-in?style=brands
+    "backgroundColor": Color(0xFF0077B5), // Reference https://simpleicons.org/?q=linkedin
   },
   {
     "name": "Instagram",
     "link": "https://www.instagram.com/benabadjisamir/",
-    "fontAwesomeIcon": FontAwesomeIcons
-        .instagram, // Reference https://fontawesome.com/icons/instagram?style=brands
-    "backgroundColor":
-        Color(0xFFE4405F), // Reference https://simpleicons.org/?q=instagram
+    "fontAwesomeIcon": FontAwesomeIcons.instagram, // Reference https://fontawesome.com/icons/instagram?style=brands
+    "backgroundColor": Color(0xFFE4405F), // Reference https://simpleicons.org/?q=instagram
   },
   {
     "name": "Stack Overflow",
     "link": "https://stackoverflow.com/users/18141958/samir-benabadji",
-    "fontAwesomeIcon": FontAwesomeIcons
-        .stackOverflow, // Reference https://fontawesome.com/icons/instagram?style=brands
-    "backgroundColor":
-        Color(0xFF181717), // Reference https://simpleicons.org/?q=instagram
+    "fontAwesomeIcon": FontAwesomeIcons.stackOverflow, // Reference https://fontawesome.com/icons/instagram?style=brands
+    "backgroundColor": Color(0xFF181717), // Reference https://simpleicons.org/?q=instagram
   },
   {
     "name": "Discord",
     "link": "https://discordapp.com/users/TGH-%3EA",
-    "fontAwesomeIcon": FontAwesomeIcons
-        .discord, // Reference https://fontawesome.com/icons/instagram?style=brands
-    "backgroundColor": Color.fromARGB(
-        255, 88, 2, 128), // Reference https://simpleicons.org/?q=instagram
+    "fontAwesomeIcon": FontAwesomeIcons.discord, // Reference https://fontawesome.com/icons/instagram?style=brands
+    "backgroundColor": Color.fromARGB(255, 88, 2, 128), // Reference https://simpleicons.org/?q=instagram
   },
 ];
 // https://simpleicons.org/
@@ -112,7 +100,16 @@ const degrees = [
     "logo_path": "assets/images/USTO-LOGO.png",
     "alt_name": "University of Science and Technology of Oran",
     "duration": "2020 - 2023",
-    "descriptions": ["Currently Studying"],
+    "descriptions": ["Completed"],
+    "website_link": "https://www.univ-usto.dz/",
+  },
+  {
+    "title": "University of Science and Technology of Oran",
+    "subtitle": "Master's Degree in Artificial Intelligence",
+    "logo_path": "assets/images/USTO-LOGO.png",
+    "alt_name": "University of Science and Technology of Oran",
+    "duration": "2023 - 2025",
+    "descriptions": ["Starting Master's Degree in AI"],
     "website_link": "https://www.univ-usto.dz/",
   },
 ];
@@ -122,8 +119,7 @@ const certifications = [
     "title": "Dart & Flutter - Advanced Course",
     "subtitle": "Udemy - March 15, 2022",
     "logo_path": "assets/images/udemy-logo.png",
-    "certificate_link":
-        "https://www.udemy.com/certificate/UC-2171a414-0739-40c3-9c4f-937fbd255fbe/",
+    "certificate_link": "https://www.udemy.com/certificate/UC-2171a414-0739-40c3-9c4f-937fbd255fbe/",
     "alt_name": "Udemy",
     "color_code": Color(0xFF70C199),
   },
@@ -139,8 +135,7 @@ const certifications = [
     "title": "PHP & MySQL - Advanced Course",
     "subtitle": "Udemy - May 4, 2022",
     "logo_path": "assets/images/udemy-logo.png",
-    "certificate_link":
-        "https://www.udemy.com/certificate/UC-0fcb4799-1923-4b05-b0e7-2d2f1e008666/",
+    "certificate_link": "https://www.udemy.com/certificate/UC-0fcb4799-1923-4b05-b0e7-2d2f1e008666/",
     "alt_name": "Udemy",
     "color_code": Color.fromARGB(255, 163, 192, 34),
   },
@@ -148,8 +143,7 @@ const certifications = [
     "title": "HTML - Course",
     "subtitle": "Udemy - February 23, 2022",
     "logo_path": "assets/images/udemy-logo.png",
-    "certificate_link":
-        "https://www.udemy.com/certificate/UC-f4978dbd-f903-4c2c-9a79-b57f76312577/",
+    "certificate_link": "https://www.udemy.com/certificate/UC-f4978dbd-f903-4c2c-9a79-b57f76312577/",
     "alt_name": "Udemy",
     "color_code": Color(0x809D5899),
   },
@@ -157,8 +151,7 @@ const certifications = [
     "title": "HTML & CSS - Course",
     "subtitle": "Udemy - February 22, 2022",
     "logo_path": "assets/images/udemy-logo.png",
-    "certificate_link":
-        "https://www.udemy.com/certificate/UC-b3331e1f-1edf-4960-b01e-35ce5bc47cb6/",
+    "certificate_link": "https://www.udemy.com/certificate/UC-b3331e1f-1edf-4960-b01e-35ce5bc47cb6/",
     "alt_name": "Udemy",
     "color_code": Color(0x7F000099),
   },
@@ -166,8 +159,7 @@ const certifications = [
     "title": "Mobile App Development",
     "subtitle": "Udemy - February 16, 2022",
     "logo_path": "assets/images/udemy-logo.png",
-    "certificate_link":
-        "https://www.udemy.com/certificate/UC-e74b3a3a-cd7c-4dfe-9f3c-499a96874274/",
+    "certificate_link": "https://www.udemy.com/certificate/UC-e74b3a3a-cd7c-4dfe-9f3c-499a96874274/",
     "alt_name": "Udemy",
     "color_code": Color.fromARGB(126, 70, 70, 218),
   },
@@ -180,21 +172,17 @@ const flutter_projects = [
     "title": "Storehouse",
     "subtitle": "A Storehouse that contains different products and items",
     "cover_image_url": "assets/images/StorehouseBackgroundimage.png",
-    "repository_url":
-        "https://github.com/samir-benabadji/Storehouse-Application",
+    "repository_url": "https://github.com/samir-benabadji/Storehouse-Application",
     "youtube_url": null,
-    "playstore_url":
-        "https://play.google.com/store/apps/details?id=com.samirbenabadji.Storehouse",
+    "playstore_url": "https://play.google.com/store/apps/details?id=com.samirbenabadji.Storehouse",
   },
   {
     "title": "Restaurant-Demo",
     "subtitle": "Different Categories And a lot of food varieties",
     "cover_image_url": "assets/images/RAV0.png",
-    "repository_url":
-        "https://github.com/samir-benabadji/Restaurant-V0-Application",
+    "repository_url": "https://github.com/samir-benabadji/Restaurant-V0-Application",
     "youtube_url": null,
-    "playstore_url":
-        'https://play.google.com/store/apps/details?id=com.samirbenabadji.RestaurantDemo',
+    "playstore_url": 'https://play.google.com/store/apps/details?id=com.samirbenabadji.RestaurantDemo',
   },
   {
     "title": "Post Job",
@@ -210,22 +198,19 @@ const flutter_projects = [
     "cover_image_url": "assets/images/YuGiOhScreenshot1.png",
     "repository_url": "https://github.com/samir-benabadji/Yu-Gi-Oh",
     "youtube_url": null,
-    "playstore_url":
-        "https://play.google.com/store/apps/details?id=com.samirbenabadji.YuGiOh_Cards",
+    "playstore_url": "https://play.google.com/store/apps/details?id=com.samirbenabadji.YuGiOh_Cards",
   },
   {
     "title": "My Portfolio with Flutter Web",
     "subtitle": "rebuilding my portfolio using flutter web",
     "cover_image_url": "assets/images/flutter_portfolio_S.png",
-    "repository_url":
-        "https://github.com/samir-benabadji/samir-benabadji.github.io",
+    "repository_url": "https://github.com/samir-benabadji/samir-benabadji.github.io",
     "youtube_url": null,
     "playstore_url": null,
   },
   {
     "title": "SpeeChat",
-    "subtitle":
-        "A social media application that lets users post and share content.",
+    "subtitle": "A social media application that lets users post and share content.",
     "cover_image_url": "assets/images/SPSCR1.png",
     "repository_url": "https://github.com/samir-benabadji/SpeeChat",
     "youtube_url": null,
