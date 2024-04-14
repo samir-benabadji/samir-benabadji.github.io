@@ -178,6 +178,15 @@ const flutter_projects = [
     "appstore_url": "https://apps.apple.com/us/app/vegpal-vegan-friends-dating/id1561161572",
   },
   {
+    "title": "YuGiOh Cards",
+    "subtitle": "consuming an API to get all different type of cards and decks",
+    "cover_image_url": "assets/images/YuGiOhScreenshot1.png",
+    "repository_url": "https://github.com/samir-benabadji/Yu-Gi-Oh",
+    "youtube_url": null,
+    "playstore_url": "https://play.google.com/store/apps/details?id=com.samirbenabadji.YuGiOh_Cards",
+    "appstore_url": null,
+  },
+  {
     "title": "Storehouse",
     "subtitle": "A Storehouse that contains different products and items",
     "cover_image_url": "assets/images/StorehouseBackgroundimage.png",
@@ -202,15 +211,6 @@ const flutter_projects = [
     "repository_url": "https://github.com/samir-benabadji/Post-Job-Application",
     "youtube_url": null,
     "playstore_url": null,
-    "appstore_url": null,
-  },
-  {
-    "title": "YuGiOh Cards",
-    "subtitle": "consuming an API to get all different type of cards and decks",
-    "cover_image_url": "assets/images/YuGiOhScreenshot1.png",
-    "repository_url": "https://github.com/samir-benabadji/Yu-Gi-Oh",
-    "youtube_url": null,
-    "playstore_url": "https://play.google.com/store/apps/details?id=com.samirbenabadji.YuGiOh_Cards",
     "appstore_url": null,
   },
   {
