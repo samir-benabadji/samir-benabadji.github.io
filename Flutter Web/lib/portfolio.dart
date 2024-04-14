@@ -14,7 +14,7 @@ List<String> nickname = [
 ];
 String subTitle =
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.";
-String resumeLink = "https://drive.google.com/file/d/1H5-J2tMV8osvDvrLNQ_jSLir3txdeyxC/view?usp=sharing";
+String resumeLink = "https://drive.google.com/file/d/1gECIfZ8Jw673n14AQBqkx3TQ_MTqKwm9/view?usp=sharing";
 // String portfolio_repository = "https://drive.google.com/file/d/1eCrMAJLbuuqfeCj3za_bvtODb4XfikI9/view?usp=sharing";
 String github_repository_link = "https://github.com/samir-benabadji?tab=repositories";
 
@@ -169,12 +169,22 @@ const projects = [];
 
 const flutter_projects = [
   {
+    "title": "Vegpal",
+    "subtitle": "Vegan Friends & Dating",
+    "cover_image_url": "assets/images/vegpal_preview_showcase.png",
+    "repository_url": null,
+    "youtube_url": null,
+    "playstore_url": "https://play.google.com/store/apps/details?id=com.vegpal&pli=1",
+    "appstore_url": "https://apps.apple.com/us/app/vegpal-vegan-friends-dating/id1561161572",
+  },
+  {
     "title": "Storehouse",
     "subtitle": "A Storehouse that contains different products and items",
     "cover_image_url": "assets/images/StorehouseBackgroundimage.png",
     "repository_url": "https://github.com/samir-benabadji/Storehouse-Application",
     "youtube_url": null,
     "playstore_url": "https://play.google.com/store/apps/details?id=com.samirbenabadji.Storehouse",
+    "appstore_url": null,
   },
   {
     "title": "Restaurant-Demo",
@@ -183,6 +193,7 @@ const flutter_projects = [
     "repository_url": "https://github.com/samir-benabadji/Restaurant-V0-Application",
     "youtube_url": null,
     "playstore_url": 'https://play.google.com/store/apps/details?id=com.samirbenabadji.RestaurantDemo',
+    "appstore_url": null,
   },
   {
     "title": "Post Job",
@@ -191,6 +202,7 @@ const flutter_projects = [
     "repository_url": "https://github.com/samir-benabadji/Post-Job-Application",
     "youtube_url": null,
     "playstore_url": null,
+    "appstore_url": null,
   },
   {
     "title": "YuGiOh Cards",
@@ -199,6 +211,7 @@ const flutter_projects = [
     "repository_url": "https://github.com/samir-benabadji/Yu-Gi-Oh",
     "youtube_url": null,
     "playstore_url": "https://play.google.com/store/apps/details?id=com.samirbenabadji.YuGiOh_Cards",
+    "appstore_url": null,
   },
   {
     "title": "My Portfolio with Flutter Web",
@@ -207,6 +220,7 @@ const flutter_projects = [
     "repository_url": "https://github.com/samir-benabadji/samir-benabadji.github.io",
     "youtube_url": null,
     "playstore_url": null,
+    "appstore_url": null,
   },
   {
     "title": "SpeeChat",
@@ -215,6 +229,7 @@ const flutter_projects = [
     "repository_url": "https://github.com/samir-benabadji/SpeeChat",
     "youtube_url": null,
     "playstore_url": null,
+    "appstore_url": null,
   },
 ];
 

@@ -56,8 +56,6 @@ class _ProjectsMobile extends StatelessWidget {
     )));
     body.add(_projectItem2(g.flutter_projects, context));
 
-
-
     body.add(Center(
       child: Padding(
         padding: const EdgeInsets.all(8.0),
@@ -169,6 +167,30 @@ class _ProjectsMobile extends StatelessWidget {
                                   child: ElevatedButton(
                                     style: ElevatedButton.styleFrom(primary: Colors.green),
                                     onPressed: () async {
+                                      final url = project["appstore_url"];
+                                      if (await canLaunch(url)) {
+                                        await launch(url);
+                                      } else {
+                                        throw 'Could not launch $url';
+                                      }
+                                    },
+                                    child: Row(
+                                      children: [
+                                        FaIcon(FontAwesomeIcons.appStore),
+                                        SizedBox(width: 10),
+                                        Text(
+                                          "App Store",
+                                          style: Theme.of(context).textTheme.button!.copyWith(color: Colors.white),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                                  child: ElevatedButton(
+                                    style: ElevatedButton.styleFrom(primary: Colors.green),
+                                    onPressed: () async {
                                       final url = project["playstore_url"];
                                       if (await canLaunch(url)) {
                                         await launch(url);
@@ -188,29 +210,31 @@ class _ProjectsMobile extends StatelessWidget {
                                     ),
                                   ),
                                 ),
-                                Padding(
-                                  padding: const EdgeInsets.symmetric(horizontal: 8.0),
-                                  child: ElevatedButton(
-                                    onPressed: () async {
-                                      final url = project["repository_url"];
-                                      if (await canLaunch(url)) {
-                                        await launch(url);
-                                      } else {
-                                        throw 'Could not launch $url';
-                                      }
-                                    },
-                                    child: Row(
-                                      children: [
-                                        FaIcon(FontAwesomeIcons.github),
-                                        SizedBox(width: 10),
-                                        Text(
-                                          "Source Code",
-                                          style: Theme.of(context).textTheme.button!.copyWith(color: Colors.white),
+                                project["repository_url"] == null
+                                    ? Container()
+                                    : Padding(
+                                        padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                                        child: ElevatedButton(
+                                          onPressed: () async {
+                                            final url = project["repository_url"];
+                                            if (await canLaunch(url)) {
+                                              await launch(url);
+                                            } else {
+                                              throw 'Could not launch $url';
+                                            }
+                                          },
+                                          child: Row(
+                                            children: [
+                                              FaIcon(FontAwesomeIcons.github),
+                                              SizedBox(width: 10),
+                                              Text(
+                                                "Source Code",
+                                                style: Theme.of(context).textTheme.button!.copyWith(color: Colors.white),
+                                              ),
+                                            ],
+                                          ),
                                         ),
-                                      ],
-                                    ),
-                                  ),
-                                ),
+                                      ),
                               ],
                             ),
                           ),
@@ -245,6 +269,7 @@ class _ProjectsMobile extends StatelessWidget {
             children: [
               HoverButton(
                 onpressed: () async {
+                  if (project["repository_url"] == null) return;
                   final url = project["repository_url"];
                   if (await canLaunch(url)) {
                     await launch(url);
@@ -301,6 +326,32 @@ class _ProjectsMobile extends StatelessWidget {
                             Row(
                               mainAxisAlignment: MainAxisAlignment.spaceAround,
                               children: [
+                                project["appstore_url"] == null
+                                    ? Container()
+                                    : Padding(
+                                        padding: const EdgeInsets.all(8.0),
+                                        child: ElevatedButton(
+                                          style: ElevatedButton.styleFrom(primary: Colors.green),
+                                          onPressed: () async {
+                                            final url = project["appstore_url"];
+                                            if (await canLaunch(url)) {
+                                              await launch(url);
+                                            } else {
+                                              throw 'Could not launch $url';
+                                            }
+                                          },
+                                          child: Row(
+                                            children: [
+                                              FaIcon(FontAwesomeIcons.appStore),
+                                              SizedBox(width: 10),
+                                              Text(
+                                                "App Store",
+                                                style: Theme.of(context).textTheme.button!.copyWith(color: Colors.white),
+                                              ),
+                                            ],
+                                          ),
+                                        ),
+                                      ),
                                 project["playstore_url"] == null
                                     ? Container()
                                     : Padding(
@@ -327,29 +378,31 @@ class _ProjectsMobile extends StatelessWidget {
                                           ),
                                         ),
                                       ),
-                                Padding(
-                                  padding: const EdgeInsets.all(8.0),
-                                  child: ElevatedButton(
-                                    onPressed: () async {
-                                      final url = project["repository_url"];
-                                      if (await canLaunch(url)) {
-                                        await launch(url);
-                                      } else {
-                                        throw 'Could not launch $url';
-                                      }
-                                    },
-                                    child: Row(
-                                      children: [
-                                        FaIcon(FontAwesomeIcons.github),
-                                        SizedBox(width: 10),
-                                        Text(
-                                          "Source Code",
-                                          style: Theme.of(context).textTheme.button!.copyWith(color: Colors.white),
+                                project["repository_url"] == null
+                                    ? Container()
+                                    : Padding(
+                                        padding: const EdgeInsets.all(8.0),
+                                        child: ElevatedButton(
+                                          onPressed: () async {
+                                            final url = project["repository_url"];
+                                            if (await canLaunch(url)) {
+                                              await launch(url);
+                                            } else {
+                                              throw 'Could not launch $url';
+                                            }
+                                          },
+                                          child: Row(
+                                            children: [
+                                              FaIcon(FontAwesomeIcons.github),
+                                              SizedBox(width: 10),
+                                              Text(
+                                                "Source Code",
+                                                style: Theme.of(context).textTheme.button!.copyWith(color: Colors.white),
+                                              ),
+                                            ],
+                                          ),
                                         ),
-                                      ],
-                                    ),
-                                  ),
-                                ),
+                                      ),
                               ],
                             ),
                           ],

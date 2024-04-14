@@ -84,10 +84,7 @@ class _ProjectsDesktop extends StatelessWidget {
             padding: const EdgeInsets.all(10.0),
             child: Text(
               "More Projects",
-              style: Theme.of(context)
-                  .textTheme
-                  .button!
-                  .copyWith(color: Colors.white, fontWeight: FontWeight.w500),
+              style: Theme.of(context).textTheme.button!.copyWith(color: Colors.white, fontWeight: FontWeight.w500),
             ),
           ),
         ),
@@ -165,36 +162,30 @@ class _ProjectsDesktop extends StatelessWidget {
                       decoration: BoxDecoration(
                         color: MyTheme.card_body_color,
                         shape: BoxShape.rectangle,
-                        borderRadius: BorderRadius.only(
-                            topRight: Radius.circular(15.0),
-                            bottomRight: Radius.circular(15.0)),
+                        borderRadius: BorderRadius.only(topRight: Radius.circular(15.0), bottomRight: Radius.circular(15.0)),
                       ),
                       child: Column(
                         children: [
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: Text(project["title"],
-                                style: Theme.of(context).textTheme.bodyText2),
+                            child: Text(project["title"], style: Theme.of(context).textTheme.bodyText2),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: Text(project["subtitle"],
-                                style: Theme.of(context).textTheme.bodyText2),
+                            child: Text(project["subtitle"], style: Theme.of(context).textTheme.bodyText2),
                           ),
                           Expanded(
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.spaceAround,
                               children: [
-                                project["playstore_url"] == null
+                                project["appstore_url"] == null
                                     ? Container()
                                     : Padding(
                                         padding: const EdgeInsets.all(8.0),
                                         child: ElevatedButton(
-                                          style: ElevatedButton.styleFrom(
-                                              primary: Colors.green),
+                                          style: ElevatedButton.styleFrom(primary: Colors.green),
                                           onPressed: () async {
-                                            final url =
-                                                project["playstore_url"];
+                                            final url = project["appstore_url"];
                                             if (await canLaunch(url)) {
                                               await launch(url);
                                             } else {
@@ -203,47 +194,67 @@ class _ProjectsDesktop extends StatelessWidget {
                                           },
                                           child: Row(
                                             children: [
-                                              FaIcon(
-                                                  FontAwesomeIcons.googlePlay),
+                                              FaIcon(FontAwesomeIcons.appStore),
                                               SizedBox(width: 10),
                                               Text(
-                                                "Play Store",
-                                                style: Theme.of(context)
-                                                    .textTheme
-                                                    .button!
-                                                    .copyWith(
-                                                        color: Colors.white),
+                                                "App Store",
+                                                style: Theme.of(context).textTheme.button!.copyWith(color: Colors.white),
                                               ),
                                             ],
                                           ),
                                         ),
                                       ),
-                                Padding(
-                                  padding: const EdgeInsets.all(8.0),
-                                  child: ElevatedButton(
-                                    onPressed: () async {
-                                      final url = project["repository_url"];
-                                      if (await canLaunch(url)) {
-                                        await launch(url);
-                                      } else {
-                                        throw 'Could not launch $url';
-                                      }
-                                    },
-                                    child: Row(
-                                      children: [
-                                        FaIcon(FontAwesomeIcons.github),
-                                        SizedBox(width: 10),
-                                        Text(
-                                          "Source Code",
-                                          style: Theme.of(context)
-                                              .textTheme
-                                              .button!
-                                              .copyWith(color: Colors.white),
+                                project["playstore_url"] == null
+                                    ? Container()
+                                    : Padding(
+                                        padding: const EdgeInsets.all(8.0),
+                                        child: ElevatedButton(
+                                          style: ElevatedButton.styleFrom(primary: Colors.green),
+                                          onPressed: () async {
+                                            final url = project["playstore_url"];
+                                            if (await canLaunch(url)) {
+                                              await launch(url);
+                                            } else {
+                                              throw 'Could not launch $url';
+                                            }
+                                          },
+                                          child: Row(
+                                            children: [
+                                              FaIcon(FontAwesomeIcons.googlePlay),
+                                              SizedBox(width: 10),
+                                              Text(
+                                                "Play Store",
+                                                style: Theme.of(context).textTheme.button!.copyWith(color: Colors.white),
+                                              ),
+                                            ],
+                                          ),
                                         ),
-                                      ],
-                                    ),
-                                  ),
-                                ),
+                                      ),
+                                project["repository_url"] == null
+                                    ? Container()
+                                    : Padding(
+                                        padding: const EdgeInsets.all(8.0),
+                                        child: ElevatedButton(
+                                          onPressed: () async {
+                                            final url = project["repository_url"];
+                                            if (await canLaunch(url)) {
+                                              await launch(url);
+                                            } else {
+                                              throw 'Could not launch $url';
+                                            }
+                                          },
+                                          child: Row(
+                                            children: [
+                                              FaIcon(FontAwesomeIcons.github),
+                                              SizedBox(width: 10),
+                                              Text(
+                                                "Source Code",
+                                                style: Theme.of(context).textTheme.button!.copyWith(color: Colors.white),
+                                              ),
+                                            ],
+                                          ),
+                                        ),
+                                      ),
                               ],
                             ),
                           ),
@@ -278,6 +289,7 @@ class _ProjectsDesktop extends StatelessWidget {
             children: [
               HoverButton(
                 onpressed: () async {
+                  if (project["repository_url"] == null) return;
                   final url = project["repository_url"];
                   if (await canLaunch(url)) {
                     await launch(url);
@@ -315,41 +327,33 @@ class _ProjectsDesktop extends StatelessWidget {
                         decoration: BoxDecoration(
                           color: MyTheme.card_body_color,
                           shape: BoxShape.rectangle,
-                          borderRadius: BorderRadius.only(
-                              bottomLeft: Radius.circular(15.0),
-                              bottomRight: Radius.circular(15.0)),
+                          borderRadius: BorderRadius.only(bottomLeft: Radius.circular(15.0), bottomRight: Radius.circular(15.0)),
                         ),
                         child: Column(
                           children: [
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: Text(project["title"],
-                                  style: Theme.of(context).textTheme.bodyText2),
+                              child: Text(project["title"], style: Theme.of(context).textTheme.bodyText2),
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child: Text(
                                 project["subtitle"],
-                                style: Theme.of(context)
-                                    .textTheme
-                                    .bodyText2!
-                                    .copyWith(fontWeight: FontWeight.w400),
+                                style: Theme.of(context).textTheme.bodyText2!.copyWith(fontWeight: FontWeight.w400),
                                 textAlign: TextAlign.center,
                               ),
                             ),
                             Row(
                               mainAxisAlignment: MainAxisAlignment.spaceAround,
                               children: [
-                                project["playstore_url"] == null
+                                project["appstore_url"] == null
                                     ? Container()
                                     : Padding(
                                         padding: const EdgeInsets.all(8.0),
                                         child: ElevatedButton(
-                                          style: ElevatedButton.styleFrom(
-                                              primary: Colors.green),
+                                          style: ElevatedButton.styleFrom(primary: Colors.green),
                                           onPressed: () async {
-                                            final url =
-                                                project["playstore_url"];
+                                            final url = project["appstore_url"];
                                             if (await canLaunch(url)) {
                                               await launch(url);
                                             } else {
@@ -358,47 +362,67 @@ class _ProjectsDesktop extends StatelessWidget {
                                           },
                                           child: Row(
                                             children: [
-                                              FaIcon(
-                                                  FontAwesomeIcons.googlePlay),
+                                              FaIcon(FontAwesomeIcons.appStore),
                                               SizedBox(width: 10),
                                               Text(
-                                                "Play Store",
-                                                style: Theme.of(context)
-                                                    .textTheme
-                                                    .button!
-                                                    .copyWith(
-                                                        color: Colors.white),
+                                                "App Store",
+                                                style: Theme.of(context).textTheme.button!.copyWith(color: Colors.white),
                                               ),
                                             ],
                                           ),
                                         ),
                                       ),
-                                Padding(
-                                  padding: const EdgeInsets.all(8.0),
-                                  child: ElevatedButton(
-                                    onPressed: () async {
-                                      final url = project["repository_url"];
-                                      if (await canLaunch(url)) {
-                                        await launch(url);
-                                      } else {
-                                        throw 'Could not launch $url';
-                                      }
-                                    },
-                                    child: Row(
-                                      children: [
-                                        FaIcon(FontAwesomeIcons.github),
-                                        SizedBox(width: 10),
-                                        Text(
-                                          "Source Code",
-                                          style: Theme.of(context)
-                                              .textTheme
-                                              .button!
-                                              .copyWith(color: Colors.white),
+                                project["playstore_url"] == null
+                                    ? Container()
+                                    : Padding(
+                                        padding: const EdgeInsets.all(8.0),
+                                        child: ElevatedButton(
+                                          style: ElevatedButton.styleFrom(primary: Colors.green),
+                                          onPressed: () async {
+                                            final url = project["playstore_url"];
+                                            if (await canLaunch(url)) {
+                                              await launch(url);
+                                            } else {
+                                              throw 'Could not launch $url';
+                                            }
+                                          },
+                                          child: Row(
+                                            children: [
+                                              FaIcon(FontAwesomeIcons.googlePlay),
+                                              SizedBox(width: 10),
+                                              Text(
+                                                "Play Store",
+                                                style: Theme.of(context).textTheme.button!.copyWith(color: Colors.white),
+                                              ),
+                                            ],
+                                          ),
                                         ),
-                                      ],
-                                    ),
-                                  ),
-                                ),
+                                      ),
+                                project["repository_url"] == null
+                                    ? Container()
+                                    : Padding(
+                                        padding: const EdgeInsets.all(8.0),
+                                        child: ElevatedButton(
+                                          onPressed: () async {
+                                            final url = project["repository_url"];
+                                            if (await canLaunch(url)) {
+                                              await launch(url);
+                                            } else {
+                                              throw 'Could not launch $url';
+                                            }
+                                          },
+                                          child: Row(
+                                            children: [
+                                              FaIcon(FontAwesomeIcons.github),
+                                              SizedBox(width: 10),
+                                              Text(
+                                                "Source Code",
+                                                style: Theme.of(context).textTheme.button!.copyWith(color: Colors.white),
+                                              ),
+                                            ],
+                                          ),
+                                        ),
+                                      ),
                               ],
                             ),
                           ],

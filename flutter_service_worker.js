@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "848aa0f749c2424ea5902a01dd1827da",
+  "assets/AssetManifest.json": "829a3a9d60d0a96c4c77fc8deab507c9",
 "assets/assets/fonts/agustina.otf": "7b9833076716a8d14eec0cf885a3153c",
 "assets/assets/fonts/GoogleSans-Bold.ttf": "4457817ac2b9993c65e81aa05828fe9c",
 "assets/assets/fonts/GoogleSans-BoldItalic.ttf": "90773b6158663ab0fe78b32680733677",
@@ -65,6 +65,7 @@ const RESOURCES = {
 "assets/assets/images/udemy-logo.png": "b9ec5aff14fc2923697640933a1caab4",
 "assets/assets/images/ui_ux_design.png": "3fe43c2f3e106993485f762b011a33c1",
 "assets/assets/images/USTO-LOGO.png": "27d6256e44ef7b16091135ed5cd98b2a",
+"assets/assets/images/vegpal_preview_showcase.png": "d30c9b73cd0909073adb58c4e906d92b",
 "assets/assets/images/YuGiOhScreenshot1.png": "bf8661780e8dfb83c1f20dbc1353597e",
 "assets/FontManifest.json": "06ff67823d7b25e346e750202803c6a7",
 "assets/fonts/MaterialIcons-Regular.otf": "e7069dfd19b331be16bed984668fe080",
@@ -82,9 +83,9 @@ const RESOURCES = {
 "flutter.js": "1cfe996e845b3a8a33f57607e8b09ee4",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "7216aba24a0ee3ba315809a00fada001",
-"/": "7216aba24a0ee3ba315809a00fada001",
-"main.dart.js": "a3f1dfe0c677b1f5633849b2a8388639",
+"index.html": "09de13462c1fe7cdfd3ff5086deeee1f",
+"/": "09de13462c1fe7cdfd3ff5086deeee1f",
+"main.dart.js": "5ee68f9c4e1d9555504d9a8acf3f9a22",
 "manifest.json": "dde157b6b54b076cedf5925b3f1c56dd",
 "version.json": "9b818ca9511483c901bed1545384376c"
 };
