@@ -25,14 +25,14 @@ class _ContactMeTablet extends StatelessWidget {
                     padding: const EdgeInsets.all(8.0),
                     child: Text(
                       g.contactPageData["contactSection"]!["title"].toString(),
-                      style: Theme.of(context).textTheme.headline1,
+                      style: Theme.of(context).textTheme.displayLarge,
                     ),
                   ),
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Text(
                       g.contactPageData["contactSection"]!["description"].toString(),
-                      style: Theme.of(context).textTheme.bodyText1!.copyWith(fontSize: 20),
+                      style: Theme.of(context).textTheme.bodyLarge!.copyWith(fontSize: 20),
                     ),
                   ),
                   Wrap(
@@ -57,7 +57,6 @@ class _ContactMeTablet extends StatelessWidget {
                       );
                     }),
                   ),
-
                 ],
               ),
             ),
@@ -98,34 +97,34 @@ class _ContactMeTablet extends StatelessWidget {
                     padding: const EdgeInsets.all(8.0),
                     child: Text(
                       g.contactPageData["addressSection"]!["title"].toString(),
-                      style: Theme.of(context).textTheme.headline1,
+                      style: Theme.of(context).textTheme.displayLarge,
                     ),
                   ),
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Text(
                       g.contactPageData["addressSection"]!["subtitle"].toString(),
-                      style: Theme.of(context).textTheme.subtitle1!.copyWith(fontWeight: FontWeight.w400),
+                      style: Theme.of(context).textTheme.titleMedium!.copyWith(fontWeight: FontWeight.w400),
                     ),
                   ),
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Text(
                       g.contactPageData["phoneSection"]!["title"].toString(),
-                      style: Theme.of(context).textTheme.headline1,
+                      style: Theme.of(context).textTheme.displayLarge,
                     ),
                   ),
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Text(
                       g.contactPageData["phoneSection"]!["subtitle"].toString(),
-                      style: Theme.of(context).textTheme.subtitle1!.copyWith(fontWeight: FontWeight.w400),
+                      style: Theme.of(context).textTheme.titleMedium!.copyWith(fontWeight: FontWeight.w400),
                     ),
                   ),
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: ElevatedButton(
-                      style: ElevatedButton.styleFrom(primary: MyTheme.jacketColor),
+                      style: ElevatedButton.styleFrom(backgroundColor: MyTheme.jacketColor),
                       onPressed: () async {
                         final url = g.contactPageData["addressSection"]!["location_map_link"].toString();
                         if (await canLaunch(url)) {
@@ -138,7 +137,7 @@ class _ContactMeTablet extends StatelessWidget {
                         padding: const EdgeInsets.all(10.0),
                         child: Text(
                           "Visit on Google Maps",
-                          style: Theme.of(context).textTheme.button!.copyWith(color: Colors.white),
+                          style: Theme.of(context).textTheme.labelLarge!.copyWith(color: Colors.white),
                         ),
                       ),
                     ),

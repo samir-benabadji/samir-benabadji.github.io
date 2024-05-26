@@ -11,7 +11,11 @@ class MyFooter extends StatelessWidget {
       child: RichText(
         text: TextSpan(
           text: "Made with Flutter Web \u2665 by Samir Benabadji",
-          style: TextStyle(fontSize: 16.0, fontFamily: "Google Sans BoldItalic", color: Color(0xFF001C55), fontWeight: FontWeight.w400),
+          style: TextStyle(
+              fontSize: 16.0,
+              fontFamily: "Google Sans BoldItalic",
+              color: Color(0xFF001C55),
+              fontWeight: FontWeight.w400),
         ),
       ),
     ));

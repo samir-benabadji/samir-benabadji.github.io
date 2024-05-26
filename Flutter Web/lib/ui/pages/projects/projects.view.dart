@@ -15,7 +15,6 @@ part 'projects_tablet.view.dart';
 part 'projects_desktop.view.dart';
 
 class ProjectsView extends StatelessWidget {
-
   const ProjectsView({Key? key}) : super(key: key);
 
   @override

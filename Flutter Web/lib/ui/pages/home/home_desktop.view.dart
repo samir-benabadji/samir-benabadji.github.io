@@ -26,7 +26,7 @@ class _HomeDesktop extends StatelessWidget {
                     padding: const EdgeInsets.all(8.0),
                     child: Text(
                       g.full_name,
-                      style: Theme.of(context).textTheme.headline1,
+                      style: Theme.of(context).textTheme.displayLarge,
                     ),
                   ),
                   Padding(
@@ -45,8 +45,7 @@ class _HomeDesktop extends StatelessWidget {
                               child: TyperAnimatedTextKit(
                                 isRepeatingAnimation: true,
                                 speed: Duration(milliseconds: 50),
-                                textStyle:
-                                    Theme.of(context).textTheme.subtitle1,
+                                textStyle: Theme.of(context).textTheme.titleMedium,
                                 text: g.nickname,
                               ),
                             ),
@@ -59,7 +58,7 @@ class _HomeDesktop extends StatelessWidget {
                       width: width * 0.42,
                       child: Text(
                         g.subTitle,
-                        style: Theme.of(context).textTheme.bodyText1,
+                        style: Theme.of(context).textTheme.bodyLarge,
                       ),
                     ),
                   ),
@@ -72,19 +71,15 @@ class _HomeDesktop extends StatelessWidget {
                         child: FloatingActionButton(
                           heroTag: null,
                           onPressed: () async {
-                            final url = g.socialMediaLinks
-                                .elementAt(index)["link"]
-                                .toString();
+                            final url = g.socialMediaLinks.elementAt(index)["link"].toString();
                             if (await canLaunch(url)) {
                               await launch(url);
                             } else {
                               throw 'Could not launch $url';
                             }
                           },
-                          child: FaIcon(g.socialMediaLinks
-                              .elementAt(index)["fontAwesomeIcon"] as IconData),
-                          backgroundColor: g.socialMediaLinks
-                              .elementAt(index)["backgroundColor"] as Color,
+                          child: FaIcon(g.socialMediaLinks.elementAt(index)["fontAwesomeIcon"] as IconData),
+                          backgroundColor: g.socialMediaLinks.elementAt(index)["backgroundColor"] as Color,
                         ),
                       );
                     }),
@@ -93,8 +88,7 @@ class _HomeDesktop extends StatelessWidget {
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: ElevatedButton(
-                      style: ElevatedButton.styleFrom(
-                          primary: MyTheme.jacketColor),
+                      style: ElevatedButton.styleFrom(backgroundColor: MyTheme.jacketColor),
                       onPressed: () async {
                         final url = g.resumeLink;
                         if (await canLaunch(url)) {
@@ -107,8 +101,10 @@ class _HomeDesktop extends StatelessWidget {
                         padding: const EdgeInsets.all(10.0),
                         child: Text(
                           "See My Resume ( CV )",
-                          style: Theme.of(context).textTheme.button!.copyWith(
-                              color: Colors.white, fontWeight: FontWeight.w500),
+                          style: Theme.of(context)
+                              .textTheme
+                              .labelLarge!
+                              .copyWith(color: Colors.white, fontWeight: FontWeight.w500),
                         ),
                       ),
                     ),
@@ -138,7 +134,7 @@ class _HomeDesktop extends StatelessWidget {
       Center(
           child: Text(
         "What I Do ?",
-        style: Theme.of(context).textTheme.headline2,
+        style: Theme.of(context).textTheme.displayMedium,
       )),
     ];
 
@@ -176,21 +172,18 @@ class _HomeDesktop extends StatelessWidget {
                 children: [
                   Text(
                     element["title"],
-                    style: Theme.of(context).textTheme.headline3,
+                    style: Theme.of(context).textTheme.displaySmall,
                   ),
                   Align(
                     alignment: Alignment.center,
                     child: Wrap(
                       // Generate 100 widgets that display their index in the List.
-                      children: List.generate(element["softwareSkills"].length,
-                          (index) {
+                      children: List.generate(element["softwareSkills"].length, (index) {
                         return Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: Icon(
-                            element["softwareSkills"][index]
-                                ["fontAwesomeClassname"] as IconData,
-                            color: element["softwareSkills"][index]["style"]
-                                ["backgroundColor"] as Color,
+                            element["softwareSkills"][index]["fontAwesomeClassname"] as IconData,
+                            color: element["softwareSkills"][index]["style"]["backgroundColor"] as Color,
                             size: 64.0,
                           ),
                           // child: Icon(SimpleIcons.github),
@@ -211,7 +204,7 @@ class _HomeDesktop extends StatelessWidget {
                             Flexible(
                               child: Text(
                                 e,
-                                style: Theme.of(context).textTheme.subtitle2,
+                                style: Theme.of(context).textTheme.titleSmall,
                               ),
                             ),
                           ],

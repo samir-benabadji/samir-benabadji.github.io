@@ -16,17 +16,17 @@ class NotFoundView extends StatelessWidget {
             children: [
               Text(
                 "404 Error!",
-                style: Theme.of(context).textTheme.headline1!.copyWith(color: Colors.white),
+                style: Theme.of(context).textTheme.displayLarge!.copyWith(color: Colors.white),
               ),
               Text(
                 "i'm sorry, but the page you are looking for cannot be found.",
-                style: Theme.of(context).textTheme.headline2!.copyWith(color: Colors.white),
+                style: Theme.of(context).textTheme.displayMedium!.copyWith(color: Colors.white),
               ),
               SizedBox(height: 20),
               Text.rich(
                 TextSpan(
                   text: "go back to home page",
-                  style: Theme.of(context).textTheme.headline1!.copyWith(
+                  style: Theme.of(context).textTheme.displayLarge!.copyWith(
                         color: Colors.blue[300],
                         decoration: TextDecoration.underline,
                       ),

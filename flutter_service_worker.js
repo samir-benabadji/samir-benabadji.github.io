@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "829a3a9d60d0a96c4c77fc8deab507c9",
+  "assets/AssetManifest.json": "7a5a477df5b5d6ee75eef02e3bfde496",
 "assets/assets/fonts/agustina.otf": "7b9833076716a8d14eec0cf885a3153c",
 "assets/assets/fonts/GoogleSans-Bold.ttf": "4457817ac2b9993c65e81aa05828fe9c",
 "assets/assets/fonts/GoogleSans-BoldItalic.ttf": "90773b6158663ab0fe78b32680733677",
@@ -40,6 +40,7 @@ const RESOURCES = {
 "assets/assets/images/google_logo.png": "b75aecaf9e70a9b1760497e33bcd6db1",
 "assets/assets/images/hardware.png": "dd2d64566b77518b5f99ff3ef5c5f6c2",
 "assets/assets/images/ibm_logo.png": "6d325fec19fe3b6b169d9012f9a1dfb9",
+"assets/assets/images/Init_Illu.png": "2e122d8f8536be4da248018c39697a73",
 "assets/assets/images/intel_logo.jpg": "29152cf756a1facead5393c32e373371",
 "assets/assets/images/jsFramework.png": "f574a52111eec4d31596ef71bddf78a7",
 "assets/assets/images/legato_logo.png": "4ba886bafb9ff0a5b71b800c47f45d90",
@@ -83,9 +84,9 @@ const RESOURCES = {
 "flutter.js": "1cfe996e845b3a8a33f57607e8b09ee4",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "276d98f96ef010c1921084d991395a3d",
-"/": "276d98f96ef010c1921084d991395a3d",
-"main.dart.js": "23b7b3ef26bcc7604aa212ced382700d",
+"index.html": "ebbd80ebb0c0a7bd4f9728133997d496",
+"/": "ebbd80ebb0c0a7bd4f9728133997d496",
+"main.dart.js": "0bad7d4f82a10fd0cbc52911c6e5732e",
 "manifest.json": "dde157b6b54b076cedf5925b3f1c56dd",
 "version.json": "9b818ca9511483c901bed1545384376c"
 };

@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:url_strategy/url_strategy.dart';
 import 'app/apppages.dart';
 import 'app/theme.dart';
-import 'ui/pages/notfound/notfound.view.dart';
 
 void main() {
   // setPathUrlStrategy();

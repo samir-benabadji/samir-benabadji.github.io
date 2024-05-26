@@ -25,7 +25,6 @@ class MyTheme {
   static bool isItMobileScreen(context) {
     final size = MediaQuery.of(context).size;
 
-
     if (size.width > screenBreakpoints.desktop) {
       // Desktop screen
       return false;
@@ -36,7 +35,6 @@ class MyTheme {
       // Mobile screen
       return true;
     }
-
   }
 
   static HeaderPadding headerPadding(context) {
@@ -83,46 +81,77 @@ class MyTheme {
   );
 
   static TextTheme textThemeDesktop = TextTheme(
-    headline1: TextStyle(fontSize: 70.0, fontFamily: "Google Sans Bold", color: text_color, fontWeight: FontWeight.w700),
-    subtitle1: TextStyle(fontSize: 30.0, fontFamily: "Google Sans BoldItalic", color: text_color, fontWeight: FontWeight.w700),
-    bodyText1: TextStyle(fontSize: 40.0, fontFamily: "Google Sans Medium", color: secondaryText_color, fontWeight: FontWeight.w400),
-    button: TextStyle(fontSize: 19.0, fontFamily: "Google Sans Regular", color: text_color, fontWeight: FontWeight.w700),
-    headline2: TextStyle(fontSize: 60.0, fontFamily: "Google Sans Bold", color: text_color, fontWeight: FontWeight.w700),
-    headline3: TextStyle(fontSize: 56.0, fontFamily: "Google Sans Bold", color: text_color, fontWeight: FontWeight.w400),
-    subtitle2: TextStyle(fontSize: 20.0, fontFamily: "Google Sans BoldItalic", color: secondaryText_color, fontWeight: FontWeight.w400),
-    headline4: TextStyle(fontSize: 20.0, fontFamily: "Google Sans Medium", color: text_color, fontWeight: FontWeight.w700),
-    bodyText2: TextStyle(fontSize: 20.0, fontFamily: "Google Sans Regular", color: text_color, fontWeight: FontWeight.w700),
-    caption: GoogleFonts.lato(fontSize: 13, fontWeight: FontWeight.w400, letterSpacing: 0.4),
-    overline: GoogleFonts.lato(fontSize: 10, fontWeight: FontWeight.w400, letterSpacing: 1.5),
+    displayLarge:
+        TextStyle(fontSize: 70.0, fontFamily: "Google Sans Bold", color: text_color, fontWeight: FontWeight.w700),
+    titleMedium:
+        TextStyle(fontSize: 30.0, fontFamily: "Google Sans BoldItalic", color: text_color, fontWeight: FontWeight.w700),
+    bodyLarge: TextStyle(
+        fontSize: 40.0, fontFamily: "Google Sans Medium", color: secondaryText_color, fontWeight: FontWeight.w400),
+    labelLarge:
+        TextStyle(fontSize: 19.0, fontFamily: "Google Sans Regular", color: text_color, fontWeight: FontWeight.w700),
+    displayMedium:
+        TextStyle(fontSize: 60.0, fontFamily: "Google Sans Bold", color: text_color, fontWeight: FontWeight.w700),
+    displaySmall:
+        TextStyle(fontSize: 56.0, fontFamily: "Google Sans Bold", color: text_color, fontWeight: FontWeight.w400),
+    titleSmall: TextStyle(
+        fontSize: 20.0, fontFamily: "Google Sans BoldItalic", color: secondaryText_color, fontWeight: FontWeight.w400),
+    headlineMedium:
+        TextStyle(fontSize: 20.0, fontFamily: "Google Sans Medium", color: text_color, fontWeight: FontWeight.w700),
+    bodyMedium:
+        TextStyle(fontSize: 20.0, fontFamily: "Google Sans Regular", color: text_color, fontWeight: FontWeight.w700),
+    bodySmall: GoogleFonts.lato(fontSize: 13, fontWeight: FontWeight.w400, letterSpacing: 0.4),
+    labelSmall: GoogleFonts.lato(fontSize: 10, fontWeight: FontWeight.w400, letterSpacing: 1.5),
   );
 
   static TextTheme textThemeTablet = TextTheme(
-    headline1: TextStyle(fontSize: 50.0, fontFamily: "Google Sans Bold", color: text_color, fontWeight: FontWeight.w700),
-    subtitle1: TextStyle(fontSize: 30.0, fontFamily: "Google Sans BoldItalic", color: text_color, fontWeight: FontWeight.w700),
-    bodyText1: TextStyle(fontSize: 20.0, fontFamily: "Google Sans Medium", color: secondaryText_color, fontWeight: FontWeight.w400),
-    button:
-        TextStyle(fontSize: 18.0, fontFamily: "Google Sans Regular", color: Color.fromRGBO(237, 249, 254, 1), fontWeight: FontWeight.w500),
-    headline2: TextStyle(fontSize: 50.0, fontFamily: "Google Sans Bold", color: text_color, fontWeight: FontWeight.w700),
-    headline3: TextStyle(fontSize: 40.0, fontFamily: "Google Sans Bold", color: text_color, fontWeight: FontWeight.w400),
-    subtitle2: TextStyle(fontSize: 20.0, fontFamily: "Google Sans BoldItalic", color: secondaryText_color, fontWeight: FontWeight.w400),
-    headline4: TextStyle(fontSize: 20.0, fontFamily: "Google Sans Medium", color: text_color, fontWeight: FontWeight.w700),
-    bodyText2: TextStyle(fontSize: 20.0, fontFamily: "Google Sans Regular", color: text_color, fontWeight: FontWeight.w400),
-    caption: GoogleFonts.lato(fontSize: 13, fontWeight: FontWeight.w400, letterSpacing: 0.4),
-    overline: GoogleFonts.lato(fontSize: 10, fontWeight: FontWeight.w400, letterSpacing: 1.5),
+    displayLarge:
+        TextStyle(fontSize: 50.0, fontFamily: "Google Sans Bold", color: text_color, fontWeight: FontWeight.w700),
+    titleMedium:
+        TextStyle(fontSize: 30.0, fontFamily: "Google Sans BoldItalic", color: text_color, fontWeight: FontWeight.w700),
+    bodyLarge: TextStyle(
+        fontSize: 20.0, fontFamily: "Google Sans Medium", color: secondaryText_color, fontWeight: FontWeight.w400),
+    labelLarge: TextStyle(
+        fontSize: 18.0,
+        fontFamily: "Google Sans Regular",
+        color: Color.fromRGBO(237, 249, 254, 1),
+        fontWeight: FontWeight.w500),
+    displayMedium:
+        TextStyle(fontSize: 50.0, fontFamily: "Google Sans Bold", color: text_color, fontWeight: FontWeight.w700),
+    displaySmall:
+        TextStyle(fontSize: 40.0, fontFamily: "Google Sans Bold", color: text_color, fontWeight: FontWeight.w400),
+    titleSmall: TextStyle(
+        fontSize: 20.0, fontFamily: "Google Sans BoldItalic", color: secondaryText_color, fontWeight: FontWeight.w400),
+    headlineMedium:
+        TextStyle(fontSize: 20.0, fontFamily: "Google Sans Medium", color: text_color, fontWeight: FontWeight.w700),
+    bodyMedium:
+        TextStyle(fontSize: 20.0, fontFamily: "Google Sans Regular", color: text_color, fontWeight: FontWeight.w400),
+    bodySmall: GoogleFonts.lato(fontSize: 13, fontWeight: FontWeight.w400, letterSpacing: 0.4),
+    labelSmall: GoogleFonts.lato(fontSize: 10, fontWeight: FontWeight.w400, letterSpacing: 1.5),
   );
 
   static TextTheme textThemeMobile = TextTheme(
-    headline1: TextStyle(fontSize: 30.0, fontFamily: "Google Sans Bold", color: text_color, fontWeight: FontWeight.w700),
-    subtitle1: TextStyle(fontSize: 25.0, fontFamily: "Google Sans BoldItalic", color: text_color, fontWeight: FontWeight.w100),
-    bodyText1: TextStyle(fontSize: 19.0, fontFamily: "Google Sans Medium", color: secondaryText_color, fontWeight: FontWeight.w400),
-    button:
-        TextStyle(fontSize: 17.0, fontFamily: "Google Sans Regular", color: Color.fromRGBO(237, 249, 254, 1), fontWeight: FontWeight.w500),
-    headline2: TextStyle(fontSize: 30.0, fontFamily: "Google Sans Bold", color: text_color, fontWeight: FontWeight.w700),
-    headline3: TextStyle(fontSize: 30.0, fontFamily: "Google Sans Bold", color: text_color, fontWeight: FontWeight.w400),
-    subtitle2: TextStyle(fontSize: 16.0, fontFamily: "Google Sans BoldItalic", color: secondaryText_color, fontWeight: FontWeight.w400),
-    headline4: TextStyle(fontSize: 16.0, fontFamily: "Google Sans Medium", color: text_color, fontWeight: FontWeight.w700),
-    bodyText2: TextStyle(fontSize: 16.0, fontFamily: "Google Sans Regular", color: text_color, fontWeight: FontWeight.w400),
-    caption: GoogleFonts.lato(fontSize: 13, fontWeight: FontWeight.w400, letterSpacing: 0.4),
-    overline: GoogleFonts.lato(fontSize: 10, fontWeight: FontWeight.w400, letterSpacing: 1.5),
+    displayLarge:
+        TextStyle(fontSize: 30.0, fontFamily: "Google Sans Bold", color: text_color, fontWeight: FontWeight.w700),
+    titleMedium:
+        TextStyle(fontSize: 25.0, fontFamily: "Google Sans BoldItalic", color: text_color, fontWeight: FontWeight.w100),
+    bodyLarge: TextStyle(
+        fontSize: 19.0, fontFamily: "Google Sans Medium", color: secondaryText_color, fontWeight: FontWeight.w400),
+    labelLarge: TextStyle(
+        fontSize: 17.0,
+        fontFamily: "Google Sans Regular",
+        color: Color.fromRGBO(237, 249, 254, 1),
+        fontWeight: FontWeight.w500),
+    displayMedium:
+        TextStyle(fontSize: 30.0, fontFamily: "Google Sans Bold", color: text_color, fontWeight: FontWeight.w700),
+    displaySmall:
+        TextStyle(fontSize: 30.0, fontFamily: "Google Sans Bold", color: text_color, fontWeight: FontWeight.w400),
+    titleSmall: TextStyle(
+        fontSize: 16.0, fontFamily: "Google Sans BoldItalic", color: secondaryText_color, fontWeight: FontWeight.w400),
+    headlineMedium:
+        TextStyle(fontSize: 16.0, fontFamily: "Google Sans Medium", color: text_color, fontWeight: FontWeight.w700),
+    bodyMedium:
+        TextStyle(fontSize: 16.0, fontFamily: "Google Sans Regular", color: text_color, fontWeight: FontWeight.w400),
+    bodySmall: GoogleFonts.lato(fontSize: 13, fontWeight: FontWeight.w400, letterSpacing: 0.4),
+    labelSmall: GoogleFonts.lato(fontSize: 10, fontWeight: FontWeight.w400, letterSpacing: 1.5),
   );
 }
