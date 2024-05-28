@@ -62603,7 +62603,7 @@ p=J.kw(5,t.l7)
 for(o=t.tk,n=t.l,m=0;m<5;++m){l=o.a(J.aa(B.a8[m],"fontAwesomeIcon"))
 p[m]=new A.N(B.h,A.tx(n.a(J.aa(B.a8[m],"backgroundColor")),new A.j3(l,g),g,!1,new A.a7Q(m)),g)}o=t.p
 n=e*0.4
-q=A.be(A.d0(B.S,A.a([A.bH(0,A.aW(A.a([new A.N(B.h,r,g),new A.N(B.h,q,g),A.nv(p)],o),B.k,B.J),g,g,g,0,0,s),A.bH(0,A.aW(A.a([A.cA("assets/images/Ludwig_Hess_Avatar.png",g,g,g)],o),B.k,B.J),g,g,0,g,0,n)],o),B.W),f,e)
+q=A.be(A.d0(B.S,A.a([A.bH(0,A.aW(A.a([new A.N(B.h,r,g),new A.N(B.h,q,g),A.nv(p)],o),B.k,B.J),g,g,g,0,0,s),A.bH(0,A.aW(A.a([A.cA("assets/images/Samir_benabadji.png",g,g,g)],o),B.k,B.J),g,g,0,g,0,n)],o),B.W),f,e)
 r=A.a4("Address",A.E(a).p3.a,g,g)
 l=A.a4("Algeria, Oran",A.E(a).p3.w.np(B.l),g,g)
 k=A.a4("Email",A.E(a).p3.a,g,g)
@@ -62647,7 +62647,7 @@ A.IR.prototype={
 K(a){var s,r,q,p,o,n,m,l,k,j,i=null,h=t.w
 a.G(h).toString
 a.G(h).toString
-h=A.cA("assets/images/Ludwig_Hess_Avatar.png",i,i,i)
+h=A.cA("assets/images/Samir_benabadji.png",i,i,i)
 s=A.a4("Contact Me",A.E(a).p3.a,i,i)
 r=A.a4(u.Y,A.E(a).p3.y.eh(20),B.ap,i)
 q=J.kw(5,t.l7)
