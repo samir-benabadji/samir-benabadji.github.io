@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "d047dda0949cf1ba1602f1985d179994",
+  "assets/AssetManifest.json": "a4585d925313d29825d861341162b1f7",
 "assets/assets/fonts/agustina.otf": "7b9833076716a8d14eec0cf885a3153c",
 "assets/assets/fonts/GoogleSans-Bold.ttf": "4457817ac2b9993c65e81aa05828fe9c",
 "assets/assets/fonts/GoogleSans-BoldItalic.ttf": "90773b6158663ab0fe78b32680733677",
@@ -13,6 +13,8 @@ const RESOURCES = {
 "assets/assets/fonts/GoogleSans-Regular.ttf": "b5c77a6aed75cdad9489effd0d5ea411",
 "assets/assets/fonts/montserrat.ttf": "ee6539921d713482b8ccd4d0d23961bb",
 "assets/assets/images/address_image.png": "e77d34b06ce066b0ea1c76b1a191e5fa",
+"assets/assets/images/AI_data_science_logo.png": "6f6c8bf722cfc224c201a1aab37142f9",
+"assets/assets/images/AI_machine_learning_logo.png": "8d33c8b0063da15d1e334a056cc7db6f",
 "assets/assets/images/animated_logo.png": "2742ff953c97b7d27bbec1bdd6c18e7b",
 "assets/assets/images/blogs_image.png": "d84130925dda0f88cb1affdae4ec80f9",
 "assets/assets/images/cloud_infrastructure.png": "ea1331e7444dde7261f71d3b7a654bd2",
@@ -84,9 +86,9 @@ const RESOURCES = {
 "flutter.js": "1cfe996e845b3a8a33f57607e8b09ee4",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "8337988c815715c76650a36f81a3aeb2",
-"/": "8337988c815715c76650a36f81a3aeb2",
-"main.dart.js": "ffa0dbf8929b6ee33f8716ef2cb386f9",
+"index.html": "061565f0919b864af6c9e6a297dc0e48",
+"/": "061565f0919b864af6c9e6a297dc0e48",
+"main.dart.js": "11d98d81c7e3d9333a8cf0044b716f84",
 "manifest.json": "dde157b6b54b076cedf5925b3f1c56dd",
 "version.json": "9b818ca9511483c901bed1545384376c"
 };

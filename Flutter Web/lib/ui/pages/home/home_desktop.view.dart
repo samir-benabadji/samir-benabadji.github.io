@@ -101,10 +101,7 @@ class _HomeDesktop extends StatelessWidget {
                         padding: const EdgeInsets.all(10.0),
                         child: Text(
                           "See My Resume ( CV )",
-                          style: Theme.of(context)
-                              .textTheme
-                              .labelLarge!
-                              .copyWith(color: Colors.white, fontWeight: FontWeight.w500),
+                          style: Theme.of(context).textTheme.labelLarge!.copyWith(color: Colors.white, fontWeight: FontWeight.w500),
                         ),
                       ),
                     ),
@@ -181,11 +178,18 @@ class _HomeDesktop extends StatelessWidget {
                       children: List.generate(element["softwareSkills"].length, (index) {
                         return Padding(
                           padding: const EdgeInsets.all(8.0),
-                          child: Icon(
-                            element["softwareSkills"][index]["fontAwesomeClassname"] as IconData,
-                            color: element["softwareSkills"][index]["style"]["backgroundColor"] as Color,
-                            size: 64.0,
-                          ),
+                          child: (element["softwareSkills"][index]["fontAwesomeClassname"] != null)
+                              ? Icon(
+                                  element["softwareSkills"][index]["fontAwesomeClassname"] as IconData,
+                                  color: element["softwareSkills"][index]["style"]["backgroundColor"] as Color,
+                                  size: 64.0,
+                                )
+                              : Image.asset(
+                                  element["softwareSkills"][index]["skillLogoPath"],
+                                  height: 68.0,
+                                  width: 68.0,
+                                ),
+
                           // child: Icon(SimpleIcons.github),
                         );
                       }),

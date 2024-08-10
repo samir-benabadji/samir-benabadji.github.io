@@ -92,10 +92,7 @@ class _HomeMobile extends StatelessWidget {
                 padding: const EdgeInsets.all(10.0),
                 child: Text(
                   "See My Resume ( CV )",
-                  style: Theme.of(context)
-                      .textTheme
-                      .labelLarge!
-                      .copyWith(color: Colors.white, fontWeight: FontWeight.w500),
+                  style: Theme.of(context).textTheme.labelLarge!.copyWith(color: Colors.white, fontWeight: FontWeight.w500),
                 ),
               ),
             ),
@@ -149,11 +146,18 @@ class _HomeMobile extends StatelessWidget {
             children: List.generate(element["softwareSkills"].length, (index) {
               return Padding(
                 padding: const EdgeInsets.all(8.0),
-                child: Icon(
-                  element["softwareSkills"][index]["fontAwesomeClassname"] as IconData,
-                  color: element["softwareSkills"][index]["style"]["backgroundColor"] as Color,
-                  size: 48.0,
-                ),
+                child: (element["softwareSkills"][index]["fontAwesomeClassname"] != null)
+                    ? Icon(
+                        element["softwareSkills"][index]["fontAwesomeClassname"] as IconData,
+                        color: element["softwareSkills"][index]["style"]["backgroundColor"] as Color,
+                        size: 48.0,
+                      )
+                    : Image.asset(
+                        element["softwareSkills"][index]["skillLogoPath"],
+                        height: 52.0,
+                        width: 52.0,
+                       
+                      ),
                 // child: Icon(SimpleIcons.github),
               );
             }),

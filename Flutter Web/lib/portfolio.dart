@@ -7,10 +7,10 @@ import 'package:simple_icons/simple_icons.dart';
 String full_name = "Samir Benabadji";
 String logo_name = "Samir";
 List<String> nickname = [
-  " Full Stack Engineer",
-  " Flutter Developer",
-  " Laravel Developer",
-  " Spryker Developer",
+  "Full Stack Engineer",
+  "Flutter Developer",
+  "AI Machine Learning Specialist",
+  "AI Data Scientist",
 ];
 String subTitle =
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.";
@@ -58,12 +58,14 @@ const skills = [
     "skills": [
       "Building responsive website's front end using Flutter Web",
       "Developing mobile applications using Flutter,",
-      "Creating application's backend in Node, Firebase & NestJS",
+      "Leveraging machine learning and AI techniques to build intelligent systems and predictive models for various applications.",
+      "Applying AI data science skills to analyze large datasets and extract actionable insights for data-driven decision-making."
     ],
     "softwareSkills": [
       {
         "skillName": "Flutter",
         "fontAwesomeClassname": SimpleIcons.flutter,
+        "skillLogoPath": "",
         "style": {
           "backgroundColor": Color(0xFF02569B),
         },
@@ -71,20 +73,23 @@ const skills = [
       {
         "skillName": "Firebase",
         "fontAwesomeClassname": SimpleIcons.firebase,
+        "skillLogoPath": "",
         "style": {
           "backgroundColor": Color(0xFFFFCA28),
         },
       },
       {
-        "skillName": "NestJS",
-        "fontAwesomeClassname": SimpleIcons.nestjs,
+        "skillName": "Machine learning",
+        "fontAwesomeClassname": null,
+        "skillLogoPath": "assets/images/AI_machine_learning_logo.png",
         "style": {
           "backgroundColor": Color(0xFFE0234E),
         },
       },
       {
-        "skillName": "NodeJS",
-        "fontAwesomeClassname": SimpleIcons.nodedotjs,
+        "skillName": "Data science",
+        "fontAwesomeClassname": null,
+        "skillLogoPath": "assets/images/AI_data_science_logo.png",
         "style": {
           "backgroundColor": Color(0xFF339933),
         },
@@ -255,7 +260,7 @@ const contactPageData = {
     "title": "Contact Me",
     "profile_image_path": "assets/images/Samir_benabadji.png",
     "description":
-        "I am available on almost every social media. You can message me, I will reply within 24 hours. i can help you with Flutter, Spryker, and TypeScript.",
+        "I'm active on most social media platforms, and you can count on a response within 24 hours. My expertise spans Flutter, AI Machine Learning, and AI Data Science—feel free to reach out if you need assistance in these areas."
   },
   "addressSection": {
     "title": "Address",
