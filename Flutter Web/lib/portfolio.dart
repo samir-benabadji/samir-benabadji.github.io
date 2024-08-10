@@ -116,6 +116,14 @@ const degrees = [
 
 const certifications = [
   {
+    "title": "Machine Learning A-Z: AI, Python & R [2024]",
+    "subtitle": "Udemy - August 10, 2024",
+    "logo_path": "assets/images/udemy-logo.png",
+    "certificate_link": "https://www.udemy.com/certificate/UC-24aab0ee-7a95-4f37-8999-204228849a0e/",
+    "alt_name": "Udemy",
+    "color_code": Color.fromARGB(255, 190, 112, 193),
+  },
+  {
     "title": "Dart & Flutter - Advanced Course",
     "subtitle": "Udemy - March 15, 2022",
     "logo_path": "assets/images/udemy-logo.png",
