@@ -34,7 +34,7 @@ dependencies:
   google_fonts: ^2.1.0
   url_launcher: ^6.0.6
   hovering: ^1.0.4
-  animated_text_kit: ^4.2.1
+  animated_text_kit: 4.2.1
   scrollable_positioned_list: ^0.1.10
   get: ^4.3.8
   url_strategy: ^0.2.0
