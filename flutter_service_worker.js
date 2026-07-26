@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "a4585d925313d29825d861341162b1f7",
+  "assets/AssetManifest.json": "19716653eacb19d6dc8737bae41e56c4",
 "assets/assets/fonts/agustina.otf": "7b9833076716a8d14eec0cf885a3153c",
 "assets/assets/fonts/GoogleSans-Bold.ttf": "4457817ac2b9993c65e81aa05828fe9c",
 "assets/assets/fonts/GoogleSans-BoldItalic.ttf": "90773b6158663ab0fe78b32680733677",
@@ -26,6 +26,7 @@ const RESOURCES = {
 "assets/assets/images/deeplearning_ai_logo.png": "7a9b2eb087350abacd2587dd578226c7",
 "assets/assets/images/delhivery_logo.png": "bc965d123bbeeb0def0e96af1b5342be",
 "assets/assets/images/developerActivity.png": "dfd4632245f9e795374520769f74ce45",
+"assets/assets/images/dqn_pipeline.png": "cfe5f84f366a84274a06f3d21381272d",
 "assets/assets/images/dsc_logo.png": "f65ee6f64b46db0ae0f59279ea7853a8",
 "assets/assets/images/education.png": "4cf815085319ca69c3c85a02d5c0b454",
 "assets/assets/images/experience.png": "91832549a1babbd6c60f4fc7064ba15a",
@@ -41,6 +42,7 @@ const RESOURCES = {
 "assets/assets/images/googleAssistant.png": "4a1f37c17182c7a557010cf5e3e8d899",
 "assets/assets/images/google_logo.png": "b75aecaf9e70a9b1760497e33bcd6db1",
 "assets/assets/images/hardware.png": "dd2d64566b77518b5f99ff3ef5c5f6c2",
+"assets/assets/images/housePricePredictor.png": "be31d348a21ee6255d27d02788476b38",
 "assets/assets/images/ibm_logo.png": "6d325fec19fe3b6b169d9012f9a1dfb9",
 "assets/assets/images/Init_Illu.png": "2e122d8f8536be4da248018c39697a73",
 "assets/assets/images/intel_logo.jpg": "29152cf756a1facead5393c32e373371",
@@ -59,6 +61,7 @@ const RESOURCES = {
 "assets/assets/images/RAV0.png": "bd8592dca751d52bc77599a821fc2582",
 "assets/assets/images/saayaHealthLogo.png": "2008870a8fa10a349b9cc13ff257f3bb",
 "assets/assets/images/Samir_benabadji.png": "e5d93ec76607590eb4fc22ca4f7719ef",
+"assets/assets/images/sample_detections.jpg": "07a987265a8c4944f01eed678c7dc1d8",
 "assets/assets/images/spryker_logo.png": "25ae7e6002db4874d2b9a95a960c5ccd",
 "assets/assets/images/SPSCR1.png": "8598fa6a59e5211a2f57bc5624fa8040",
 "assets/assets/images/StorehouseBackgroundimage.png": "b84ba017f8299da3664680bf2dee73c2",
@@ -87,9 +90,9 @@ const RESOURCES = {
 "flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "190f74ee2d7ab728134823ea05cf2c39",
-"/": "190f74ee2d7ab728134823ea05cf2c39",
-"main.dart.js": "a5b89ee5a4ff956900c14750639fc90a",
+"index.html": "c0d40cbefc402c66470ab759ccdbd968",
+"/": "c0d40cbefc402c66470ab759ccdbd968",
+"main.dart.js": "7bca0f296144cdb6f1b936f6844f7c70",
 "manifest.json": "dde157b6b54b076cedf5925b3f1c56dd",
 "version.json": "9b818ca9511483c901bed1545384376c"
 };
