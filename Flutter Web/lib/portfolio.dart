@@ -7,47 +7,58 @@ import 'package:simple_icons/simple_icons.dart';
 String full_name = "Samir Benabadji";
 String logo_name = "Samir";
 List<String> nickname = [
-  "Full Stack Engineer",
   "Flutter Developer",
   "AI Machine Learning Specialist",
   "AI Data Scientist",
 ];
 String subTitle =
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.";
-String resumeLink = "https://drive.google.com/file/d/1Nfn8wWXAp9Gi2fSmo8KE6jnZR8eg_g0l/view?usp=sharing";
+String resumeLink =
+    "https://drive.google.com/file/d/1-FjbQx8lFXunhDh5Sd6Dvc3mSRHG7JDC/view?usp=sharing";
 // String portfolio_repository = "https://drive.google.com/file/d/1eCrMAJLbuuqfeCj3za_bvtODb4XfikI9/view?usp=sharing";
-String github_repository_link = "https://github.com/samir-benabadji?tab=repositories";
+String github_repository_link =
+    "https://github.com/samir-benabadji?tab=repositories";
 
 const socialMediaLinks = [
   {
     "name": "Github",
     "link": "https://github.com/samir-benabadji",
-    "fontAwesomeIcon": FontAwesomeIcons.github, // Reference https://fontawesome.com/icons/github?style=brands
-    "backgroundColor": Color(0xFF181717), // Reference https://simpleicons.org/?q=github
+    "fontAwesomeIcon": FontAwesomeIcons
+        .github, // Reference https://fontawesome.com/icons/github?style=brands
+    "backgroundColor":
+        Color(0xFF181717), // Reference https://simpleicons.org/?q=github
   },
   {
     "name": "LinkedIn",
     "link": "https://www.linkedin.com/in/samir-benabadji-6717b8230/",
-    "fontAwesomeIcon": FontAwesomeIcons.linkedin, // Reference https://fontawesome.com/icons/linkedin-in?style=brands
-    "backgroundColor": Color(0xFF0077B5), // Reference https://simpleicons.org/?q=linkedin
+    "fontAwesomeIcon": FontAwesomeIcons
+        .linkedin, // Reference https://fontawesome.com/icons/linkedin-in?style=brands
+    "backgroundColor":
+        Color(0xFF0077B5), // Reference https://simpleicons.org/?q=linkedin
   },
   {
     "name": "Instagram",
     "link": "https://www.instagram.com/benabadjisamir/",
-    "fontAwesomeIcon": FontAwesomeIcons.instagram, // Reference https://fontawesome.com/icons/instagram?style=brands
-    "backgroundColor": Color(0xFFE4405F), // Reference https://simpleicons.org/?q=instagram
+    "fontAwesomeIcon": FontAwesomeIcons
+        .instagram, // Reference https://fontawesome.com/icons/instagram?style=brands
+    "backgroundColor":
+        Color(0xFFE4405F), // Reference https://simpleicons.org/?q=instagram
   },
   {
     "name": "Stack Overflow",
     "link": "https://stackoverflow.com/users/18141958/samir-benabadji",
-    "fontAwesomeIcon": FontAwesomeIcons.stackOverflow, // Reference https://fontawesome.com/icons/instagram?style=brands
-    "backgroundColor": Color(0xFF181717), // Reference https://simpleicons.org/?q=instagram
+    "fontAwesomeIcon": FontAwesomeIcons
+        .stackOverflow, // Reference https://fontawesome.com/icons/instagram?style=brands
+    "backgroundColor":
+        Color(0xFF181717), // Reference https://simpleicons.org/?q=instagram
   },
   {
     "name": "Discord",
     "link": "https://discordapp.com/users/TGH-%3EA",
-    "fontAwesomeIcon": FontAwesomeIcons.discord, // Reference https://fontawesome.com/icons/instagram?style=brands
-    "backgroundColor": Color.fromARGB(255, 88, 2, 128), // Reference https://simpleicons.org/?q=instagram
+    "fontAwesomeIcon": FontAwesomeIcons
+        .discord, // Reference https://fontawesome.com/icons/instagram?style=brands
+    "backgroundColor": Color.fromARGB(
+        255, 88, 2, 128), // Reference https://simpleicons.org/?q=instagram
   },
 ];
 // https://simpleicons.org/
@@ -113,18 +124,64 @@ const degrees = [
     "subtitle": "Master's Degree in Artificial Intelligence",
     "logo_path": "assets/images/USTO-LOGO.png",
     "alt_name": "University of Science and Technology of Oran",
-    "duration": "2023 - 2025",
-    "descriptions": ["Starting Master's Degree in AI"],
+    "duration": "2024 - 2026",
+    "descriptions": ["Completed"],
     "website_link": "https://www.univ-usto.dz/",
   },
 ];
 
 const certifications = [
   {
+    "title": "AI Engineer Production Track: Deploy LLMs & Agents at Scale",
+    "subtitle": "Udemy - May 31, 2026",
+    "logo_path": "assets/images/udemy-logo.png",
+    "certificate_link":
+        "https://www.udemy.com/certificate/UC-0d56d957-cab3-412b-921b-b4250885cf41/",
+    "alt_name": "Udemy",
+    "color_code": Color.fromARGB(255, 255, 153, 0),
+  },
+  {
+    "title": "AI Engineer Core Track: LLM Engineering, RAG, QLoRA, Agents",
+    "subtitle": "Udemy - December 3, 2025",
+    "logo_path": "assets/images/udemy-logo.png",
+    "certificate_link":
+        "https://www.udemy.com/certificate/UC-12e5531e-9f4e-43e2-855d-76fdbca933cf/",
+    "alt_name": "Udemy",
+    "color_code": Color.fromARGB(255, 88, 166, 255),
+  },
+  {
+    "title": "Artificial Intelligence A-Z 2025: Build 7 AI + LLM & ChatGPT",
+    "subtitle": "Udemy - January 30, 2025",
+    "logo_path": "assets/images/udemy-logo.png",
+    "certificate_link":
+        "https://www.udemy.com/certificate/UC-26823a47-84bf-447b-b866-ee7d9b1853a2/",
+    "alt_name": "Udemy",
+    "color_code": Color.fromARGB(255, 233, 96, 96),
+  },
+  {
+    "title": "Building Recommender Systems with Machine Learning and AI",
+    "subtitle": "Udemy - November 24, 2024",
+    "logo_path": "assets/images/udemy-logo.png",
+    "certificate_link":
+        "https://www.udemy.com/certificate/UC-af4c5344-a0b9-4965-bdd9-4236a5a84e66/",
+    "alt_name": "Udemy",
+    "color_code": Color.fromARGB(255, 92, 184, 178),
+  },
+  {
+    "title": "Data Science A-Z: Hands-On Exercises & ChatGPT Prize [2024]",
+    "subtitle": "Udemy - October 10, 2024",
+    "logo_path": "assets/images/udemy-logo.png",
+    "certificate_link":
+        "https://www.udemy.com/certificate/UC-c17cb548-4521-491e-b486-af41e61c8b76/",
+    "alt_name": "Udemy",
+    "color_code": Color.fromARGB(255, 145, 122, 214),
+  },
+  {
     "title": "Machine Learning A-Z: AI, Python & R [2024]",
     "subtitle": "Udemy - August 10, 2024",
     "logo_path": "assets/images/udemy-logo.png",
-    "certificate_link": "https://www.udemy.com/certificate/UC-24aab0ee-7a95-4f37-8999-204228849a0e/",
+    "certificate_link":
+        "https://www.udemy.com/certificate/UC-24aab0ee-7a95-4f37-8999-204228849a0e/",
     "alt_name": "Udemy",
     "color_code": Color.fromARGB(255, 190, 112, 193),
   },
@@ -132,7 +189,8 @@ const certifications = [
     "title": "Dart & Flutter - Advanced Course",
     "subtitle": "Udemy - March 15, 2022",
     "logo_path": "assets/images/udemy-logo.png",
-    "certificate_link": "https://www.udemy.com/certificate/UC-2171a414-0739-40c3-9c4f-937fbd255fbe/",
+    "certificate_link":
+        "https://www.udemy.com/certificate/UC-2171a414-0739-40c3-9c4f-937fbd255fbe/",
     "alt_name": "Udemy",
     "color_code": Color(0xFF70C199),
   },
@@ -148,7 +206,8 @@ const certifications = [
     "title": "PHP & MySQL - Advanced Course",
     "subtitle": "Udemy - May 4, 2022",
     "logo_path": "assets/images/udemy-logo.png",
-    "certificate_link": "https://www.udemy.com/certificate/UC-0fcb4799-1923-4b05-b0e7-2d2f1e008666/",
+    "certificate_link":
+        "https://www.udemy.com/certificate/UC-0fcb4799-1923-4b05-b0e7-2d2f1e008666/",
     "alt_name": "Udemy",
     "color_code": Color.fromARGB(255, 163, 192, 34),
   },
@@ -156,7 +215,8 @@ const certifications = [
     "title": "HTML - Course",
     "subtitle": "Udemy - February 23, 2022",
     "logo_path": "assets/images/udemy-logo.png",
-    "certificate_link": "https://www.udemy.com/certificate/UC-f4978dbd-f903-4c2c-9a79-b57f76312577/",
+    "certificate_link":
+        "https://www.udemy.com/certificate/UC-f4978dbd-f903-4c2c-9a79-b57f76312577/",
     "alt_name": "Udemy",
     "color_code": Color(0x809D5899),
   },
@@ -164,7 +224,8 @@ const certifications = [
     "title": "HTML & CSS - Course",
     "subtitle": "Udemy - February 22, 2022",
     "logo_path": "assets/images/udemy-logo.png",
-    "certificate_link": "https://www.udemy.com/certificate/UC-b3331e1f-1edf-4960-b01e-35ce5bc47cb6/",
+    "certificate_link":
+        "https://www.udemy.com/certificate/UC-b3331e1f-1edf-4960-b01e-35ce5bc47cb6/",
     "alt_name": "Udemy",
     "color_code": Color(0x7F000099),
   },
@@ -172,13 +233,49 @@ const certifications = [
     "title": "Mobile App Development",
     "subtitle": "Udemy - February 16, 2022",
     "logo_path": "assets/images/udemy-logo.png",
-    "certificate_link": "https://www.udemy.com/certificate/UC-e74b3a3a-cd7c-4dfe-9f3c-499a96874274/",
+    "certificate_link":
+        "https://www.udemy.com/certificate/UC-e74b3a3a-cd7c-4dfe-9f3c-499a96874274/",
     "alt_name": "Udemy",
     "color_code": Color.fromARGB(126, 70, 70, 218),
   },
 ];
 
 const projects = [];
+
+const ai_projects = [
+  {
+    "title": "Road Anomaly Detection: YOLOv11 vs YOLOv12",
+    "subtitle":
+        "A comparative deep learning study benchmarking the YOLOv11 and YOLOv12 object detectors for automatic road damage detection, trained and evaluated on two public datasets.",
+    "cover_image_url": "assets/images/sample_detections.jpg",
+    "repository_url":
+        "https://github.com/samir-benabadji/road-anomaly-detection-yolov11-vs-yolov12",
+    "youtube_url": null,
+    "playstore_url": null,
+    "appstore_url": null,
+  },
+  {
+    "title": "Deep Convolutional Q-Learning for Ms. Pac-Man",
+    "subtitle":
+        "A Deep Convolutional Q-Network (DCQN) trained through reinforcement learning to play Ms. Pac-Man, using CNNs for feature extraction, experience replay and a target Q-network.",
+    "cover_image_url": "assets/images/dqn_pipeline.png",
+    "repository_url": "https://github.com/samir-benabadji/pac_man_ai",
+    "youtube_url": null,
+    "playstore_url": null,
+    "appstore_url": null,
+  },
+  {
+    "title": "House Price Prediction",
+    "subtitle":
+        "A machine learning project predicting house prices on the Ames Housing dataset using regression models, with data preprocessing, feature engineering and model evaluation.",
+    "cover_image_url": "assets/images/housePricePredictor.png",
+    "repository_url":
+        "https://github.com/samir-benabadji/HousePriceAI-Predictor",
+    "youtube_url": null,
+    "playstore_url": null,
+    "appstore_url": null,
+  },
+];
 
 const flutter_projects = [
   {
@@ -187,8 +284,10 @@ const flutter_projects = [
     "cover_image_url": "assets/images/vegpal_preview_showcase.png",
     "repository_url": null,
     "youtube_url": null,
-    "playstore_url": "https://play.google.com/store/apps/details?id=com.vegpal&pli=1",
-    "appstore_url": "https://apps.apple.com/us/app/vegpal-vegan-friends-dating/id1561161572",
+    "playstore_url":
+        "https://play.google.com/store/apps/details?id=com.vegpal&pli=1",
+    "appstore_url":
+        "https://apps.apple.com/us/app/vegpal-vegan-friends-dating/id1561161572",
   },
   {
     "title": "YuGiOh Cards",
@@ -196,15 +295,18 @@ const flutter_projects = [
     "cover_image_url": "assets/images/YuGiOhScreenshot1.png",
     "repository_url": "https://github.com/samir-benabadji/Yu-Gi-Oh",
     "youtube_url": null,
-    "playstore_url": "https://play.google.com/store/apps/details?id=com.samirbenabadji.YuGiOh_Cards",
+    "playstore_url":
+        "https://play.google.com/store/apps/details?id=com.samirbenabadji.YuGiOh_Cards",
     "appstore_url": null,
   },
   {
     "title": "DoCare",
-    "subtitle": "Mobile application dedicated to booking nearby medical appointments.",
+    "subtitle":
+        "Mobile application dedicated to booking nearby medical appointments.",
     "cover_image_url": "assets/images/Init_Illu.png",
     "repository_url": "https://github.com/samir-benabadji/docare",
-    "youtube_url": "https://www.youtube.com/watch?v=kp1sOTTqR6I&ab_channel=SamirBenabadji",
+    "youtube_url":
+        "https://www.youtube.com/watch?v=kp1sOTTqR6I&ab_channel=SamirBenabadji",
     "playstore_url": null,
     "appstore_url": null,
   },
@@ -212,18 +314,22 @@ const flutter_projects = [
     "title": "Storehouse",
     "subtitle": "A Storehouse that contains different products and items",
     "cover_image_url": "assets/images/StorehouseBackgroundimage.png",
-    "repository_url": "https://github.com/samir-benabadji/Storehouse-Application",
+    "repository_url":
+        "https://github.com/samir-benabadji/Storehouse-Application",
     "youtube_url": null,
-    "playstore_url": "https://play.google.com/store/apps/details?id=com.samirbenabadji.Storehouse",
+    "playstore_url":
+        "https://play.google.com/store/apps/details?id=com.samirbenabadji.Storehouse",
     "appstore_url": null,
   },
   {
     "title": "Restaurant-Demo",
     "subtitle": "Different Categories And a lot of food varieties",
     "cover_image_url": "assets/images/RAV0.png",
-    "repository_url": "https://github.com/samir-benabadji/Restaurant-V0-Application",
+    "repository_url":
+        "https://github.com/samir-benabadji/Restaurant-V0-Application",
     "youtube_url": null,
-    "playstore_url": 'https://play.google.com/store/apps/details?id=com.samirbenabadji.RestaurantDemo',
+    "playstore_url":
+        'https://play.google.com/store/apps/details?id=com.samirbenabadji.RestaurantDemo',
     "appstore_url": null,
   },
   {
@@ -239,14 +345,16 @@ const flutter_projects = [
     "title": "My Portfolio with Flutter Web",
     "subtitle": "rebuilding my portfolio using flutter web",
     "cover_image_url": "assets/images/flutter_portfolio_S.png",
-    "repository_url": "https://github.com/samir-benabadji/samir-benabadji.github.io",
+    "repository_url":
+        "https://github.com/samir-benabadji/samir-benabadji.github.io",
     "youtube_url": null,
     "playstore_url": null,
     "appstore_url": null,
   },
   {
     "title": "SpeeChat",
-    "subtitle": "A social media application that lets users post and share content.",
+    "subtitle":
+        "A social media application that lets users post and share content.",
     "cover_image_url": "assets/images/SPSCR1.png",
     "repository_url": "https://github.com/samir-benabadji/SpeeChat",
     "youtube_url": null,

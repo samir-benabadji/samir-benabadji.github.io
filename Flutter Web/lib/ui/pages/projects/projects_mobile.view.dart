@@ -50,6 +50,14 @@ class _ProjectsMobile extends StatelessWidget {
 
     body.add(Center(
         child: Text(
+      "My Top projects as AI Engineer",
+      style: Theme.of(context).textTheme.displayMedium,
+      textAlign: TextAlign.center,
+    )));
+    body.add(_projectItem2(g.ai_projects, context));
+
+    body.add(Center(
+        child: Text(
       "My Top Flutter projects as Frontend Developer",
       style: Theme.of(context).textTheme.displayMedium,
       textAlign: TextAlign.center,
