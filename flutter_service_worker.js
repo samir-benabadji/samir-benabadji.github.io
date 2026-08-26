@@ -90,9 +90,9 @@ const RESOURCES = {
 "flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "c0d40cbefc402c66470ab759ccdbd968",
-"/": "c0d40cbefc402c66470ab759ccdbd968",
-"main.dart.js": "7bca0f296144cdb6f1b936f6844f7c70",
+"index.html": "2632202b70a542d352307b77ec11fc55",
+"/": "2632202b70a542d352307b77ec11fc55",
+"main.dart.js": "dfebc4b0ad443f80f9ba952d6037e509",
 "manifest.json": "dde157b6b54b076cedf5925b3f1c56dd",
 "version.json": "9b818ca9511483c901bed1545384376c"
 };
